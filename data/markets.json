@@ -1,0 +1,331 @@
+{
+  "book": "Markets",
+  "slug": "markets",
+  "generated_at": "2026-08-29T07:30:06+00:00",
+  "strategy": {
+    "name": "trend_pullback",
+    "version": "1.0",
+    "filters": {
+      "min_abs_ema_sep_pct": 1.0,
+      "markets_exclude": [
+        "GBP/USD",
+        "AUD/USD"
+      ]
+    }
+  },
+  "data_collection": true,
+  "correlated_book": false,
+  "headline": {
+    "n": 9,
+    "total_R": 3.32,
+    "expectancy_R": 0.369,
+    "win_rate": 66.7,
+    "avg_win_R": 1.06,
+    "avg_loss_R": -1.01,
+    "profit_factor": 2.1,
+    "max_drawdown_R": -2.01,
+    "max_consecutive_losses": 2,
+    "equity_curve_R": [
+      0.08,
+      0.81,
+      1.33,
+      3.31,
+      2.31,
+      1.3,
+      2.35,
+      1.34,
+      3.32
+    ]
+  },
+  "sample_gate": {
+    "n": 9,
+    "target": 30,
+    "met": false,
+    "pct": 30
+  },
+  "counts": {
+    "open": 1,
+    "pending": 1,
+    "closed": 9
+  },
+  "equity": [
+    {
+      "exit_at": "2026-07-06",
+      "market": "S&P 500",
+      "R": 0.078,
+      "cum_R": 0.078
+    },
+    {
+      "exit_at": "2026-07-06",
+      "market": "DAX 40",
+      "R": 0.73,
+      "cum_R": 0.808
+    },
+    {
+      "exit_at": "2026-07-06",
+      "market": "FTSE 100",
+      "R": 0.522,
+      "cum_R": 1.33
+    },
+    {
+      "exit_at": "2026-07-14",
+      "market": "DAX 40",
+      "R": 1.982,
+      "cum_R": 3.312
+    },
+    {
+      "exit_at": "2026-07-23",
+      "market": "S&P 500",
+      "R": -1.006,
+      "cum_R": 2.306
+    },
+    {
+      "exit_at": "2026-08-04",
+      "market": "Gold",
+      "R": -1.004,
+      "cum_R": 1.302
+    },
+    {
+      "exit_at": "2026-08-17",
+      "market": "DAX 40",
+      "R": 1.052,
+      "cum_R": 2.354
+    },
+    {
+      "exit_at": "2026-08-24",
+      "market": "S&P 500",
+      "R": -1.016,
+      "cum_R": 1.338
+    },
+    {
+      "exit_at": "2026-08-27",
+      "market": "S&P 500",
+      "R": 1.986,
+      "cum_R": 3.324
+    }
+  ],
+  "closed_R": [
+    {
+      "exit_at": "2026-07-06",
+      "R": 0.078
+    },
+    {
+      "exit_at": "2026-07-06",
+      "R": 0.73
+    },
+    {
+      "exit_at": "2026-07-06",
+      "R": 0.522
+    },
+    {
+      "exit_at": "2026-07-14",
+      "R": 1.982
+    },
+    {
+      "exit_at": "2026-07-23",
+      "R": -1.006
+    },
+    {
+      "exit_at": "2026-08-04",
+      "R": -1.004
+    },
+    {
+      "exit_at": "2026-08-17",
+      "R": 1.052
+    },
+    {
+      "exit_at": "2026-08-24",
+      "R": -1.016
+    },
+    {
+      "exit_at": "2026-08-27",
+      "R": 1.986
+    }
+  ],
+  "open": [
+    {
+      "market": "FTSE 100",
+      "direction": "long",
+      "entry": 10816.2998,
+      "stop": 10684.4004,
+      "target": 11080.0986,
+      "entry_date": "2026-08-24",
+      "price": 10792.5,
+      "unreal_R": -0.18
+    }
+  ],
+  "pending": [
+    {
+      "market": "USD/JPY",
+      "direction": "long",
+      "signal_date": "2026-08-28"
+    }
+  ],
+  "closed": [
+    {
+      "market": "S&P 500",
+      "direction": "long",
+      "outcome_R": 1.99,
+      "status": "WON",
+      "reason": "hit its target",
+      "exit_at": "2026-08-27"
+    },
+    {
+      "market": "S&P 500",
+      "direction": "long",
+      "outcome_R": -1.02,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-08-24"
+    },
+    {
+      "market": "DAX 40",
+      "direction": "long",
+      "outcome_R": 1.05,
+      "status": "EXPIRED",
+      "reason": "reached its time limit",
+      "exit_at": "2026-08-17"
+    },
+    {
+      "market": "Gold",
+      "direction": "short",
+      "outcome_R": -1.0,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-08-04"
+    },
+    {
+      "market": "S&P 500",
+      "direction": "long",
+      "outcome_R": -1.01,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-07-23"
+    },
+    {
+      "market": "DAX 40",
+      "direction": "long",
+      "outcome_R": 1.98,
+      "status": "WON",
+      "reason": "hit its target",
+      "exit_at": "2026-07-14"
+    },
+    {
+      "market": "FTSE 100",
+      "direction": "long",
+      "outcome_R": 0.52,
+      "status": "EXPIRED",
+      "reason": "reached its time limit",
+      "exit_at": "2026-07-06"
+    },
+    {
+      "market": "DAX 40",
+      "direction": "long",
+      "outcome_R": 0.73,
+      "status": "EXPIRED",
+      "reason": "reached its time limit",
+      "exit_at": "2026-07-06"
+    },
+    {
+      "market": "S&P 500",
+      "direction": "long",
+      "outcome_R": 0.08,
+      "status": "EXPIRED",
+      "reason": "reached its time limit",
+      "exit_at": "2026-07-06"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7730.990234375,
+      "trend": "up",
+      "sep_pct": 5.78,
+      "dist_ema20_pct": 0.82,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 26367.240234375,
+      "trend": "up",
+      "sep_pct": 3.76,
+      "dist_ema20_pct": 1.1,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "FTSE 100",
+      "ticker": "^FTSE",
+      "price": 10792.5,
+      "trend": "up",
+      "sep_pct": 4.03,
+      "dist_ema20_pct": -0.04,
+      "status": "in_trade",
+      "plain": "Uptrend \u00b7 trade open, riding it"
+    },
+    {
+      "name": "Gold",
+      "ticker": "GC=F",
+      "price": 4609.7001953125,
+      "trend": "up",
+      "sep_pct": 0.49,
+      "dist_ema20_pct": 3.95,
+      "status": "no_setup",
+      "plain": "uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Silver",
+      "ticker": "SI=F",
+      "price": 69.42900085449219,
+      "trend": "down",
+      "sep_pct": -1.07,
+      "dist_ema20_pct": 5.73,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
+      "name": "EUR/USD",
+      "ticker": "EURUSD=X",
+      "price": 1.1587486267089844,
+      "trend": "down",
+      "sep_pct": -0.11,
+      "dist_ema20_pct": -0.01,
+      "status": "flat",
+      "plain": "No clear trend \u00b7 staying out of the chop"
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBPUSD=X",
+      "price": 1.353747844696045,
+      "trend": "up",
+      "sep_pct": 0.49,
+      "dist_ema20_pct": -0.02,
+      "status": "watch",
+      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+    },
+    {
+      "name": "USD/JPY",
+      "ticker": "JPY=X",
+      "price": 160.03799438476562,
+      "trend": "up",
+      "sep_pct": 1.34,
+      "dist_ema20_pct": 0.32,
+      "status": "in_trade",
+      "plain": "Uptrend \u00b7 trade open, riding it"
+    },
+    {
+      "name": "AUD/USD",
+      "ticker": "AUDUSD=X",
+      "price": 0.7195098996162415,
+      "trend": "up",
+      "sep_pct": 1.65,
+      "dist_ema20_pct": 1.27,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    }
+  ],
+  "today": {}
+}
