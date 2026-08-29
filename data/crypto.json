@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-08-29T07:52:43+00:00",
+  "generated_at": "2026-08-29T07:53:56+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -110,5 +110,9 @@
       "plain": "Strong downtrend \u00b7 no setup right now"
     }
   ],
-  "today": {}
+  "today": {
+    "new_signals": 0,
+    "closed_today": 0,
+    "data_gaps": []
+  }
 }
