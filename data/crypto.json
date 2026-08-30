@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-08-29T07:53:56+00:00",
+  "generated_at": "2026-08-30T06:30:25+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
