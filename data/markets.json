@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-08-29T07:52:39+00:00",
+  "generated_at": "2026-08-31T23:00:30+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -150,8 +150,8 @@
       "stop": 10684.4004,
       "target": 11080.0986,
       "entry_date": "2026-08-24",
-      "price": 10792.5,
-      "unreal_R": -0.18
+      "price": 10824.2998046875,
+      "unreal_R": 0.06
     }
   ],
   "pending": [
@@ -239,93 +239,97 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "price": 7730.990234375,
+      "price": 7686.14013671875,
       "trend": "up",
-      "sep_pct": 5.78,
-      "dist_ema20_pct": 0.82,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "sep_pct": 5.77,
+      "dist_ema20_pct": 0.17,
+      "status": "watch",
+      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "DAX 40",
       "ticker": "^GDAXI",
-      "price": 26367.240234375,
+      "price": 26569.990234375,
       "trend": "up",
-      "sep_pct": 3.76,
-      "dist_ema20_pct": 1.1,
+      "sep_pct": 3.83,
+      "dist_ema20_pct": 1.68,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "price": 10792.5,
+      "price": 10824.2998046875,
       "trend": "up",
-      "sep_pct": 4.03,
-      "dist_ema20_pct": -0.04,
+      "sep_pct": 4.01,
+      "dist_ema20_pct": 0.23,
       "status": "in_trade",
       "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "Gold",
       "ticker": "GC=F",
-      "price": 4609.7001953125,
+      "price": 4495.7998046875,
       "trend": "up",
-      "sep_pct": 0.49,
-      "dist_ema20_pct": 3.95,
+      "sep_pct": 0.67,
+      "dist_ema20_pct": 1.28,
       "status": "no_setup",
       "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "Silver",
       "ticker": "SI=F",
-      "price": 69.42900085449219,
+      "price": 67.18000030517578,
       "trend": "down",
-      "sep_pct": -1.07,
-      "dist_ema20_pct": 5.73,
+      "sep_pct": -0.86,
+      "dist_ema20_pct": 2.13,
       "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
+      "plain": "downtrend \u00b7 no setup right now"
     },
     {
       "name": "EUR/USD",
       "ticker": "EURUSD=X",
-      "price": 1.1587486267089844,
+      "price": 1.1656370162963867,
       "trend": "down",
-      "sep_pct": -0.11,
-      "dist_ema20_pct": -0.01,
+      "sep_pct": -0.1,
+      "dist_ema20_pct": 0.53,
       "status": "flat",
       "plain": "No clear trend \u00b7 staying out of the chop"
     },
     {
       "name": "GBP/USD",
       "ticker": "GBPUSD=X",
-      "price": 1.353747844696045,
+      "price": 1.3597116470336914,
       "trend": "up",
-      "sep_pct": 0.49,
-      "dist_ema20_pct": -0.02,
+      "sep_pct": 0.5,
+      "dist_ema20_pct": 0.37,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "USD/JPY",
       "ticker": "JPY=X",
-      "price": 160.03799438476562,
+      "price": 159.3209991455078,
       "trend": "up",
-      "sep_pct": 1.34,
-      "dist_ema20_pct": 0.32,
+      "sep_pct": 1.33,
+      "dist_ema20_pct": -0.09,
       "status": "in_trade",
       "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
-      "price": 0.7195098996162415,
+      "price": 0.7163000702857971,
       "trend": "up",
-      "sep_pct": 1.65,
-      "dist_ema20_pct": 1.27,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "sep_pct": 1.67,
+      "dist_ema20_pct": 0.75,
+      "status": "watch",
+      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     }
   ],
-  "today": {}
+  "today": {
+    "new_signals": 1,
+    "closed_today": 0,
+    "data_gaps": []
+  }
 }
