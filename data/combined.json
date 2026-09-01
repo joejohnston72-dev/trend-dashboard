@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:00:30+00:00",
+  "generated_at": "2026-09-01T04:45:43+00:00",
   "headline": {
     "n": 9,
     "total_R": 3.32,
@@ -61,13 +61,13 @@
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-08-31T05:45:35+00:00",
+      "generated_at": "2026-09-01T04:45:43+00:00",
       "headline": {
         "n": 0
       },
       "counts": {
         "open": 0,
-        "pending": 0,
+        "pending": 2,
         "closed": 0
       },
       "data_collection": true,

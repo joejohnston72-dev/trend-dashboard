@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-08-31T05:45:35+00:00",
+  "generated_at": "2026-09-01T04:45:43+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -20,98 +20,109 @@
   },
   "counts": {
     "open": 0,
-    "pending": 0,
+    "pending": 2,
     "closed": 0
   },
   "equity": [],
   "closed_R": [],
   "open": [],
-  "pending": [],
+  "pending": [
+    {
+      "market": "Cardano",
+      "direction": "short",
+      "signal_date": "2026-08-30"
+    },
+    {
+      "market": "Litecoin",
+      "direction": "short",
+      "signal_date": "2026-08-30"
+    }
+  ],
   "closed": [],
   "markets": [
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "price": 77830.2890625,
+      "price": 77667.5703125,
       "trend": "down",
-      "sep_pct": -5.25,
-      "dist_ema20_pct": 6.75,
+      "sep_pct": -4.44,
+      "dist_ema20_pct": 5.3,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Ethereum",
       "ticker": "ETH-USD",
-      "price": 2442.535888671875,
+      "price": 2417.938720703125,
       "trend": "down",
-      "sep_pct": -5.3,
-      "dist_ema20_pct": 8.16,
+      "sep_pct": -4.31,
+      "dist_ema20_pct": 5.77,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Solana",
       "ticker": "SOL-USD",
-      "price": 104.126953125,
+      "price": 101.87669372558594,
       "trend": "down",
-      "sep_pct": -8.39,
-      "dist_ema20_pct": 13.59,
+      "sep_pct": -6.91,
+      "dist_ema20_pct": 9.25,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "XRP",
       "ticker": "XRP-USD",
-      "price": 1.3831889629364014,
+      "price": 1.3594980239868164,
       "trend": "down",
-      "sep_pct": -13.42,
-      "dist_ema20_pct": 8.07,
+      "sep_pct": -12.45,
+      "dist_ema20_pct": 5.06,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Litecoin",
       "ticker": "LTC-USD",
-      "price": 49.31890106201172,
+      "price": 47.90633773803711,
       "trend": "down",
-      "sep_pct": -12.99,
-      "dist_ema20_pct": 1.93,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
+      "sep_pct": -12.64,
+      "dist_ema20_pct": -0.98,
+      "status": "in_trade",
+      "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "Cardano",
       "ticker": "ADA-USD",
-      "price": 0.2030629962682724,
+      "price": 0.19270700216293335,
       "trend": "down",
-      "sep_pct": -23.34,
-      "dist_ema20_pct": 1.01,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
+      "sep_pct": -23.15,
+      "dist_ema20_pct": -3.9,
+      "status": "in_trade",
+      "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "Dogecoin",
       "ticker": "DOGE-USD",
-      "price": 0.08521900326013565,
+      "price": 0.08209700137376785,
       "trend": "down",
-      "sep_pct": -18.43,
-      "dist_ema20_pct": 4.8,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
+      "sep_pct": -17.83,
+      "dist_ema20_pct": 0.63,
+      "status": "watch",
+      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
-      "price": 7.305190086364746,
+      "price": 7.112915992736816,
       "trend": "down",
-      "sep_pct": -22.22,
-      "dist_ema20_pct": 3.39,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
+      "sep_pct": -21.95,
+      "dist_ema20_pct": 0.37,
+      "status": "watch",
+      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
     }
   ],
   "today": {
-    "new_signals": 0,
+    "new_signals": 2,
     "closed_today": 0,
     "data_gaps": []
   }
