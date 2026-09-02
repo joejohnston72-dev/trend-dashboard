@@ -76,7 +76,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-08-31T23:00:30+00:00",
+      "generated_at": "2026-09-01T23:00:26+00:00",
       "headline": {
         "n": 9,
         "total_R": 3.32,
@@ -100,8 +100,8 @@
         ]
       },
       "counts": {
-        "open": 1,
-        "pending": 1,
+        "open": 2,
+        "pending": 0,
         "closed": 9
       },
       "data_collection": true,
@@ -140,6 +140,17 @@
       "entry_date": "2026-08-24",
       "price": 10824.2998046875,
       "unreal_R": 0.06,
+      "book": "Markets"
+    },
+    {
+      "market": "USD/JPY",
+      "direction": "long",
+      "entry": 160.099,
+      "stop": 158.88,
+      "target": 162.537,
+      "entry_date": "2026-08-31",
+      "price": 159.7469940185547,
+      "unreal_R": -0.29,
       "book": "Markets"
     }
   ]

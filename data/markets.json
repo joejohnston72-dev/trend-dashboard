@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-08-31T23:00:30+00:00",
+  "generated_at": "2026-09-01T23:00:26+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -44,8 +44,8 @@
     "pct": 30
   },
   "counts": {
-    "open": 1,
-    "pending": 1,
+    "open": 2,
+    "pending": 0,
     "closed": 9
   },
   "equity": [
@@ -152,15 +152,19 @@
       "entry_date": "2026-08-24",
       "price": 10824.2998046875,
       "unreal_R": 0.06
-    }
-  ],
-  "pending": [
+    },
     {
       "market": "USD/JPY",
       "direction": "long",
-      "signal_date": "2026-08-28"
+      "entry": 160.099,
+      "stop": 158.88,
+      "target": 162.537,
+      "entry_date": "2026-08-31",
+      "price": 159.7469940185547,
+      "unreal_R": -0.29
     }
   ],
+  "pending": [],
   "closed": [
     {
       "market": "S&P 500",
@@ -239,22 +243,22 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "price": 7686.14013671875,
+      "price": 7631.47021484375,
       "trend": "up",
-      "sep_pct": 5.77,
-      "dist_ema20_pct": 0.17,
+      "sep_pct": 5.74,
+      "dist_ema20_pct": -0.49,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "DAX 40",
       "ticker": "^GDAXI",
-      "price": 26569.990234375,
+      "price": 26258.109375,
       "trend": "up",
-      "sep_pct": 3.83,
-      "dist_ema20_pct": 1.68,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "sep_pct": 3.88,
+      "dist_ema20_pct": 0.46,
+      "status": "watch",
+      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "FTSE 100",
@@ -267,69 +271,43 @@
       "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
-      "name": "Gold",
-      "ticker": "GC=F",
-      "price": 4495.7998046875,
-      "trend": "up",
-      "sep_pct": 0.67,
-      "dist_ema20_pct": 1.28,
-      "status": "no_setup",
-      "plain": "uptrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Silver",
-      "ticker": "SI=F",
-      "price": 67.18000030517578,
-      "trend": "down",
-      "sep_pct": -0.86,
-      "dist_ema20_pct": 2.13,
-      "status": "no_setup",
-      "plain": "downtrend \u00b7 no setup right now"
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EURUSD=X",
-      "price": 1.1656370162963867,
-      "trend": "down",
-      "sep_pct": -0.1,
-      "dist_ema20_pct": 0.53,
-      "status": "flat",
-      "plain": "No clear trend \u00b7 staying out of the chop"
-    },
-    {
       "name": "GBP/USD",
       "ticker": "GBPUSD=X",
-      "price": 1.3597116470336914,
+      "price": 1.3550136089324951,
       "trend": "up",
-      "sep_pct": 0.5,
-      "dist_ema20_pct": 0.37,
+      "sep_pct": 0.51,
+      "dist_ema20_pct": 0.03,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "USD/JPY",
       "ticker": "JPY=X",
-      "price": 159.3209991455078,
+      "price": 159.7469940185547,
       "trend": "up",
-      "sep_pct": 1.33,
-      "dist_ema20_pct": -0.09,
+      "sep_pct": 1.27,
+      "dist_ema20_pct": 0.13,
       "status": "in_trade",
       "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
-      "price": 0.7163000702857971,
+      "price": 0.7172999382019043,
       "trend": "up",
-      "sep_pct": 1.67,
-      "dist_ema20_pct": 0.75,
-      "status": "watch",
-      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+      "sep_pct": 1.7,
+      "dist_ema20_pct": 0.8,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
     }
   ],
   "today": {
     "new_signals": 1,
     "closed_today": 0,
-    "data_gaps": []
+    "data_gaps": [
+      "Gold: GC=F: download failed ('NoneType' object is not subscriptable)",
+      "Silver: SI=F: download failed ('NoneType' object is not subscriptable)",
+      "EUR/USD: EURUSD=X: download failed ('NoneType' object is not subscriptable)"
+    ]
   }
 }
