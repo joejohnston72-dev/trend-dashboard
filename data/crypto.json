@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-09-01T04:45:43+00:00",
+  "generated_at": "2026-09-02T03:45:48+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -19,110 +19,120 @@
     "pct": 0
   },
   "counts": {
-    "open": 0,
-    "pending": 2,
+    "open": 2,
+    "pending": 0,
     "closed": 0
   },
   "equity": [],
   "closed_R": [],
-  "open": [],
-  "pending": [
+  "open": [
     {
       "market": "Cardano",
       "direction": "short",
-      "signal_date": "2026-08-30"
+      "entry": 0.1927,
+      "stop": 0.2173,
+      "target": 0.1435,
+      "entry_date": "2026-08-31",
+      "price": 0.19776299595832825,
+      "unreal_R": -0.21
     },
     {
       "market": "Litecoin",
       "direction": "short",
-      "signal_date": "2026-08-30"
+      "entry": 47.9069,
+      "stop": 50.4441,
+      "target": 42.8325,
+      "entry_date": "2026-08-31",
+      "price": 48.52872085571289,
+      "unreal_R": -0.25
     }
   ],
+  "pending": [],
   "closed": [],
   "markets": [
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "price": 77667.5703125,
+      "price": 78548.6328125,
       "trend": "down",
-      "sep_pct": -4.44,
-      "dist_ema20_pct": 5.3,
+      "sep_pct": -3.99,
+      "dist_ema20_pct": 5.76,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Ethereum",
       "ticker": "ETH-USD",
-      "price": 2417.938720703125,
+      "price": 2466.8203125,
       "trend": "down",
-      "sep_pct": -4.31,
-      "dist_ema20_pct": 5.77,
+      "sep_pct": -3.68,
+      "dist_ema20_pct": 6.91,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Solana",
       "ticker": "SOL-USD",
-      "price": 101.87669372558594,
+      "price": 102.99690246582031,
       "trend": "down",
-      "sep_pct": -6.91,
-      "dist_ema20_pct": 9.25,
+      "sep_pct": -6.12,
+      "dist_ema20_pct": 9.26,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "XRP",
       "ticker": "XRP-USD",
-      "price": 1.3594980239868164,
+      "price": 1.3790479898452759,
       "trend": "down",
-      "sep_pct": -12.45,
-      "dist_ema20_pct": 5.06,
+      "sep_pct": -11.79,
+      "dist_ema20_pct": 5.8,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Litecoin",
       "ticker": "LTC-USD",
-      "price": 47.90633773803711,
+      "price": 48.52872085571289,
       "trend": "down",
-      "sep_pct": -12.64,
-      "dist_ema20_pct": -0.98,
+      "sep_pct": -12.27,
+      "dist_ema20_pct": 0.28,
       "status": "in_trade",
       "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "Cardano",
       "ticker": "ADA-USD",
-      "price": 0.19270700216293335,
+      "price": 0.19776299595832825,
       "trend": "down",
-      "sep_pct": -23.15,
-      "dist_ema20_pct": -3.9,
+      "sep_pct": -22.41,
+      "dist_ema20_pct": -1.15,
       "status": "in_trade",
       "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "Dogecoin",
       "ticker": "DOGE-USD",
-      "price": 0.08209700137376785,
+      "price": 0.08281400054693222,
       "trend": "down",
-      "sep_pct": -17.83,
-      "dist_ema20_pct": 0.63,
-      "status": "watch",
-      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
+      "sep_pct": -17.29,
+      "dist_ema20_pct": 1.35,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
-      "price": 7.112915992736816,
+      "price": 7.230126857757568,
       "trend": "down",
-      "sep_pct": -21.95,
-      "dist_ema20_pct": 0.37,
-      "status": "watch",
-      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
+      "sep_pct": -21.52,
+      "dist_ema20_pct": 1.79,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
     }
   ],
   "today": {
-    "new_signals": 2,
+    "new_signals": 0,
     "closed_today": 0,
     "data_gaps": []
   }
