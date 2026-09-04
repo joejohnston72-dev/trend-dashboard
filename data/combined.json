@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-03T02:45:47+00:00",
+  "generated_at": "2026-09-04T01:45:57+00:00",
   "headline": {
-    "n": 9,
-    "total_R": 3.32,
-    "win_rate": 66.7,
+    "n": 10,
+    "total_R": 2.31,
+    "win_rate": 60.0,
     "avg_win_R": 1.06,
     "avg_loss_R": -1.01,
-    "expectancy_R": 0.369,
-    "profit_factor": 2.0984798413747523,
+    "expectancy_R": 0.231,
+    "profit_factor": 1.57100445324097,
     "max_drawdown_R": -2.01
   },
   "equity": [
@@ -55,19 +55,24 @@
       "exit_at": "2026-08-27",
       "R": 1.986,
       "cum_R": 3.324
+    },
+    {
+      "exit_at": "2026-09-02",
+      "R": -1.016,
+      "cum_R": 2.308
     }
   ],
   "books": [
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-09-03T02:45:47+00:00",
+      "generated_at": "2026-09-04T01:45:57+00:00",
       "headline": {
         "n": 0
       },
       "counts": {
-        "open": 2,
-        "pending": 1,
+        "open": 3,
+        "pending": 0,
         "closed": 0
       },
       "data_collection": true,
@@ -76,15 +81,15 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-09-01T23:00:26+00:00",
+      "generated_at": "2026-09-04T01:45:57+00:00",
       "headline": {
-        "n": 9,
-        "total_R": 3.32,
-        "expectancy_R": 0.369,
-        "win_rate": 66.7,
+        "n": 10,
+        "total_R": 2.31,
+        "expectancy_R": 0.231,
+        "win_rate": 60.0,
         "avg_win_R": 1.06,
         "avg_loss_R": -1.01,
-        "profit_factor": 2.1,
+        "profit_factor": 1.57,
         "max_drawdown_R": -2.01,
         "max_consecutive_losses": 2,
         "equity_curve_R": [
@@ -96,13 +101,14 @@
           1.3,
           2.35,
           1.34,
-          3.32
+          3.32,
+          2.31
         ]
       },
       "counts": {
-        "open": 2,
-        "pending": 0,
-        "closed": 9
+        "open": 1,
+        "pending": 1,
+        "closed": 10
       },
       "data_collection": true,
       "correlated_book": false
@@ -116,8 +122,19 @@
       "stop": 0.2173,
       "target": 0.1435,
       "entry_date": "2026-08-31",
-      "price": 0.19651800394058228,
-      "unreal_R": -0.16,
+      "price": 0.2006639987230301,
+      "unreal_R": -0.32,
+      "book": "Crypto"
+    },
+    {
+      "market": "Dogecoin",
+      "direction": "short",
+      "entry": 0.0816,
+      "stop": 0.0864,
+      "target": 0.0721,
+      "entry_date": "2026-09-02",
+      "price": 0.08163599669933319,
+      "unreal_R": -0.01,
       "book": "Crypto"
     },
     {
@@ -127,8 +144,8 @@
       "stop": 50.4441,
       "target": 42.8325,
       "entry_date": "2026-08-31",
-      "price": 49.563438415527344,
-      "unreal_R": -0.65,
+      "price": 49.62273406982422,
+      "unreal_R": -0.68,
       "book": "Crypto"
     },
     {
@@ -138,19 +155,8 @@
       "stop": 10684.4004,
       "target": 11080.0986,
       "entry_date": "2026-08-24",
-      "price": 10824.2998046875,
-      "unreal_R": 0.06,
-      "book": "Markets"
-    },
-    {
-      "market": "USD/JPY",
-      "direction": "long",
-      "entry": 160.099,
-      "stop": 158.88,
-      "target": 162.537,
-      "entry_date": "2026-08-31",
-      "price": 159.7469940185547,
-      "unreal_R": -0.29,
+      "price": 10756.5,
+      "unreal_R": -0.45,
       "book": "Markets"
     }
   ]
