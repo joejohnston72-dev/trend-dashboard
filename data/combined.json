@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T01:45:57+00:00",
+  "generated_at": "2026-09-05T08:00:51+00:00",
   "headline": {
-    "n": 10,
-    "total_R": 2.31,
-    "win_rate": 60.0,
+    "n": 13,
+    "total_R": -0.73,
+    "win_rate": 46.2,
     "avg_win_R": 1.06,
     "avg_loss_R": -1.01,
-    "expectancy_R": 0.231,
-    "profit_factor": 1.57100445324097,
-    "max_drawdown_R": -2.01
+    "expectancy_R": -0.056,
+    "profit_factor": 0.8968926553672318,
+    "max_drawdown_R": -4.05
   },
   "equity": [
     {
@@ -60,20 +60,48 @@
       "exit_at": "2026-09-02",
       "R": -1.016,
       "cum_R": 2.308
+    },
+    {
+      "exit_at": "2026-09-03",
+      "R": -1.016,
+      "cum_R": 1.292
+    },
+    {
+      "exit_at": "2026-09-03",
+      "R": -1.007,
+      "cum_R": 0.285
+    },
+    {
+      "exit_at": "2026-09-03",
+      "R": -1.015,
+      "cum_R": -0.73
     }
   ],
   "books": [
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-09-04T01:45:57+00:00",
+      "generated_at": "2026-09-05T08:00:51+00:00",
       "headline": {
-        "n": 0
+        "n": 3,
+        "total_R": -3.04,
+        "expectancy_R": -1.012,
+        "win_rate": 0.0,
+        "avg_win_R": 0.0,
+        "avg_loss_R": -1.01,
+        "profit_factor": 0.0,
+        "max_drawdown_R": -3.04,
+        "max_consecutive_losses": 3,
+        "equity_curve_R": [
+          -1.02,
+          -2.02,
+          -3.04
+        ]
       },
       "counts": {
-        "open": 3,
+        "open": 0,
         "pending": 0,
-        "closed": 0
+        "closed": 3
       },
       "data_collection": true,
       "correlated_book": true
@@ -115,39 +143,6 @@
     }
   ],
   "open": [
-    {
-      "market": "Cardano",
-      "direction": "short",
-      "entry": 0.1927,
-      "stop": 0.2173,
-      "target": 0.1435,
-      "entry_date": "2026-08-31",
-      "price": 0.2006639987230301,
-      "unreal_R": -0.32,
-      "book": "Crypto"
-    },
-    {
-      "market": "Dogecoin",
-      "direction": "short",
-      "entry": 0.0816,
-      "stop": 0.0864,
-      "target": 0.0721,
-      "entry_date": "2026-09-02",
-      "price": 0.08163599669933319,
-      "unreal_R": -0.01,
-      "book": "Crypto"
-    },
-    {
-      "market": "Litecoin",
-      "direction": "short",
-      "entry": 47.9069,
-      "stop": 50.4441,
-      "target": 42.8325,
-      "entry_date": "2026-08-31",
-      "price": 49.62273406982422,
-      "unreal_R": -0.68,
-      "book": "Crypto"
-    },
     {
       "market": "FTSE 100",
       "direction": "long",
