@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-09-05T08:00:51+00:00",
+  "generated_at": "2026-09-05T12:12:37+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -79,7 +79,10 @@
       "outcome_R": -1.01,
       "status": "LOST",
       "reason": "hit its get-out",
-      "exit_at": "2026-09-03"
+      "exit_at": "2026-09-03",
+      "actual_return_pct": -5.88,
+      "expected_return_pct": 11.64,
+      "vs_expected_pct": -17.52
     },
     {
       "market": "Cardano",
@@ -87,7 +90,10 @@
       "outcome_R": -1.01,
       "status": "LOST",
       "reason": "hit its get-out",
-      "exit_at": "2026-09-03"
+      "exit_at": "2026-09-03",
+      "actual_return_pct": -12.77,
+      "expected_return_pct": 25.53,
+      "vs_expected_pct": -38.3
     },
     {
       "market": "Litecoin",
@@ -95,7 +101,10 @@
       "outcome_R": -1.02,
       "status": "LOST",
       "reason": "hit its get-out",
-      "exit_at": "2026-09-03"
+      "exit_at": "2026-09-03",
+      "actual_return_pct": -5.3,
+      "expected_return_pct": 10.59,
+      "vs_expected_pct": -15.89
     }
   ],
   "markets": [
@@ -180,9 +189,5 @@
       "plain": "Strong downtrend \u00b7 no setup right now"
     }
   ],
-  "today": {
-    "new_signals": 0,
-    "closed_today": 3,
-    "data_gaps": []
-  }
+  "today": {}
 }

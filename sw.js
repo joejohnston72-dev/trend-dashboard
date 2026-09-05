@@ -2,7 +2,7 @@
    Shell is cache-first (instant, works offline). Data is network-first (fresh when
    online, falls back to the last cached snapshot offline) so the app can always
    render *something*, and the staleness banner tells the user how old it is. */
-const CACHE = 'trendbot-v1';
+const CACHE = 'trendbot-v2';
 const SHELL = [
   './', './index.html', './style.css', './app.js', './manifest.json',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-180.png',

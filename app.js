@@ -13,6 +13,7 @@ const el = (html) => { const t = document.createElement('template'); t.innerHTML
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 function fmtR(x, dp = 1) { if (x == null || isNaN(x)) return '—'; return (x >= 0 ? '+' : '') + Number(x).toFixed(dp) + 'R'; }
+function fmtPct(x, dp = 1) { if (x == null || isNaN(x)) return '—'; return (x >= 0 ? '+' : '') + Number(x).toFixed(dp) + '%'; }
 function signClass(x) { return x > 0 ? 'pos' : x < 0 ? 'neg' : 'flat'; }
 function fmtPrice(p) {
   if (p == null || isNaN(p)) return '—';
@@ -84,17 +85,19 @@ function dirPill(dir) {
   return `<span class="pill ${up ? 'long' : 'short'}">${up ? ICON.up : ICON.down}${up ? 'rising' : 'falling'}</span>`;
 }
 function openCard(o, showBook) {
-  const r = o.unreal_R;
+  const r = o.unreal_R, pct = o.return_pct;
   let st = 'on track', stc = '';
   if (r != null && r >= 0.8) { st = 'near target'; stc = 'near'; }
   else if (r != null && r <= -0.7) { st = 'near get-out'; stc = 'risk'; }
   const bookTag = showBook && o.book ? `<span class="pill booktag">${esc(o.book)}</span>` : '';
+  const val = pct != null ? fmtPct(pct) : fmtR(r);            // % headline, R + status below
+  const sub = pct != null ? `${fmtR(r)} · ${st}` : st;
   const c = el(`<button class="pos-card">
     <div class="body">
       <div class="top"><span class="nm">${esc(o.market)}</span>${dirPill(o.direction)}${bookTag}</div>
       <div class="desc">${betWord(o.direction)}${o.entry_date ? ' · opened ' + esc(o.entry_date) : ''}</div>
     </div>
-    <div class="r"><div class="val ${signClass(r)}">${fmtR(r)}</div><div class="st ${stc}">${st}</div></div>
+    <div class="r"><div class="val ${signClass(pct != null ? pct : r)}">${val}</div><div class="st ${stc}">${sub}</div></div>
     <span class="chev">${ICON.chev}</span>
   </button>`);
   c.addEventListener('click', () => openSheet(o));
@@ -112,10 +115,17 @@ function marketRow(m) {
 }
 function closedTable(rows) {
   if (!rows || !rows.length) return '';
-  const body = rows.slice(0, 8).map(t => `<tr>
-    <td class="nm">${esc(t.market)} <span class="pill ${t.direction === 'long' ? 'long' : 'short'}" style="margin-left:4px">${t.direction}</span>
-      <div class="why">${esc(t.reason)}</div></td>
-    <td class="r ${signClass(t.outcome_R)}">${fmtR(t.outcome_R, 2)}</td></tr>`).join('');
+  const body = rows.slice(0, 8).map(t => {
+    const act = t.actual_return_pct, exp = t.expected_return_pct;
+    const headline = act != null ? fmtPct(act) : fmtR(t.outcome_R, 2);
+    const sub = act != null
+      ? `<div class="why">expected ${fmtPct(exp)} · ${fmtR(t.outcome_R, 2)}</div>`
+      : '';
+    return `<tr>
+      <td class="nm">${esc(t.market)} <span class="pill ${t.direction === 'long' ? 'long' : 'short'}" style="margin-left:4px">${t.direction}</span>
+        <div class="why">${esc(t.reason)}</div></td>
+      <td class="r ${signClass(act != null ? act : t.outcome_R)}">${headline}${sub}</td></tr>`;
+  }).join('');
   return `<div class="list2"><table>${body}</table></div>`;
 }
 function sampleGate(n, target) {
@@ -215,8 +225,8 @@ function renderBook(root, slug) {
   if (ct) { root.append(el('<div class="sec"><span class="h">Recently closed</span></div>')); root.append(el(ct)); }
 
   const note = slug === 'crypto'
-    ? '<b>No money limits here.</b> Every crypto signal is logged as a paper trade to gather data fast. Because crypto trades weekends, this book updates daily, just after midnight UTC.'
-    : '<b>Data-collection mode.</b> Every valid signal is logged as a paper trade, sized as if the money were there. Nothing here places a real order or moves real money.';
+    ? '<b>No money limits.</b> Every crypto signal is logged as a paper trade and shown per share as a % return (expected vs actual on close). Because crypto trades weekends, this book updates daily, just after midnight UTC.'
+    : '<b>No money limits.</b> Every valid signal is logged as a paper trade and shown per share as a % return — expected vs actual on close. Nothing here places a real order or moves real money.';
   root.append(el(`<div class="note">${note}</div>`));
 }
 
@@ -241,15 +251,15 @@ function openSheet(o) {
     <div class="grab"></div>
     <div class="d-head"><span class="nm">${esc(o.market)}</span>${dirPill(o.direction)}${o.book ? `<span class="pill booktag">${esc(o.book)}</span>` : ''}</div>
     <div class="d-say">Betting ${esc(o.market)} keeps ${up ? 'rising' : 'falling'}${o.entry_date ? '. Opened ' + esc(o.entry_date) : ''}.</div>
-    <div class="result"><span class="big ${signClass(r)}">${fmtR(r)}</span><span class="${labc}" style="font-size:12px">${r != null ? (r >= 0 ? 'ahead' : 'behind') + ' by ' + Math.abs(r).toFixed(1) + '× the risk · ' : ''}${lab}</span></div>
+    <div class="result"><span class="big ${signClass(o.return_pct != null ? o.return_pct : r)}">${o.return_pct != null ? fmtPct(o.return_pct) : fmtR(r)}</span><span class="${labc}" style="font-size:12px">${r != null ? fmtR(r) + ' · ' : ''}${lab}</span></div>
     <div class="track"><span class="now" style="left:${pos}%"></span></div>
     <div class="ends"><span class="s">Get out ${fmtPrice(o.stop)}<span class="sub">−1R · exits if wrong</span></span>
       <span class="t">Target ${fmtPrice(o.target)}<span class="sub">+${rr}R · exits if right</span></span></div>
     <div class="grid">
-      <div class="cell"><div class="l">Got in at</div><div class="v">${fmtPrice(o.entry)}</div></div>
-      <div class="cell"><div class="l">Price now</div><div class="v">${fmtPrice(o.price)}</div></div>
-      <div class="cell"><div class="l">Risk on the trade</div><div class="v">1R</div></div>
-      <div class="cell"><div class="l">Reward if it wins</div><div class="v pos">+${rr}R</div></div>
+      <div class="cell"><div class="l">Price per share now</div><div class="v">${fmtPrice(o.price)}</div></div>
+      <div class="cell"><div class="l">Bought at</div><div class="v">${fmtPrice(o.entry)}</div></div>
+      <div class="cell"><div class="l">Expected return</div><div class="v pos">${fmtPct(o.expected_return_pct)} <span style="color:var(--dim);font-size:12px">+${rr}R</span></div></div>
+      <div class="cell"><div class="l">Return so far</div><div class="v ${signClass(o.return_pct)}">${fmtPct(o.return_pct)}</div></div>
       ${days != null ? `<div class="cell"><div class="l">Days held</div><div class="v">${days} / 20</div></div><div class="cell"><div class="l">Payoff</div><div class="v">${rr}:1</div></div>` : ''}
     </div>
     <h2 style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px">What happens next</h2>
