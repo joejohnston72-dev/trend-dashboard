@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:10:18+00:00",
+  "generated_at": "2026-09-07T23:00:23+00:00",
   "headline": {
     "n": 13,
     "total_R": -0.73,
@@ -109,7 +109,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-09-05T12:12:35+00:00",
+      "generated_at": "2026-09-07T23:00:23+00:00",
       "headline": {
         "n": 10,
         "total_R": 2.31,
@@ -134,8 +134,8 @@
         ]
       },
       "counts": {
-        "open": 1,
-        "pending": 1,
+        "open": 2,
+        "pending": 0,
         "closed": 10
       },
       "data_collection": true,
@@ -154,6 +154,19 @@
       "unreal_R": 0.11,
       "expected_return_pct": 2.44,
       "return_pct": 0.14,
+      "book": "Markets"
+    },
+    {
+      "market": "S&P 500",
+      "direction": "long",
+      "entry": 7750.1899,
+      "stop": 7611.2002,
+      "target": 8028.1694,
+      "entry_date": "2026-09-04",
+      "price": 7718.60009765625,
+      "unreal_R": -0.23,
+      "expected_return_pct": 3.59,
+      "return_pct": -0.41,
       "book": "Markets"
     }
   ]
