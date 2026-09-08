@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-09-07T23:00:23+00:00",
+  "generated_at": "2026-09-08T23:00:30+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -161,10 +161,10 @@
       "stop": 10684.4004,
       "target": 11080.0986,
       "entry_date": "2026-08-24",
-      "price": 10831.099609375,
-      "unreal_R": 0.11,
+      "price": 10822.099609375,
+      "unreal_R": 0.04,
       "expected_return_pct": 2.44,
-      "return_pct": 0.14
+      "return_pct": 0.05
     },
     {
       "market": "S&P 500",
@@ -173,10 +173,10 @@
       "stop": 7611.2002,
       "target": 8028.1694,
       "entry_date": "2026-09-04",
-      "price": 7718.60009765625,
-      "unreal_R": -0.23,
+      "price": 7673.52001953125,
+      "unreal_R": -0.55,
       "expected_return_pct": 3.59,
-      "return_pct": -0.41
+      "return_pct": -0.99
     }
   ],
   "pending": [],
@@ -296,90 +296,90 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "price": 7718.60009765625,
+      "price": 7673.52001953125,
       "trend": "up",
-      "sep_pct": 5.72,
-      "dist_ema20_pct": 0.49,
+      "sep_pct": 5.67,
+      "dist_ema20_pct": -0.08,
       "status": "in_trade",
       "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "DAX 40",
       "ticker": "^GDAXI",
-      "price": 26046.400390625,
+      "price": 26006.529296875,
       "trend": "up",
-      "sep_pct": 3.81,
-      "dist_ema20_pct": -0.14,
+      "sep_pct": 3.79,
+      "dist_ema20_pct": -0.26,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "price": 10831.099609375,
+      "price": 10822.099609375,
       "trend": "up",
-      "sep_pct": 3.95,
-      "dist_ema20_pct": 0.27,
+      "sep_pct": 3.92,
+      "dist_ema20_pct": 0.17,
       "status": "in_trade",
       "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "Gold",
       "ticker": "GC=F",
-      "price": 4452.2998046875,
+      "price": 4395.89990234375,
       "trend": "up",
-      "sep_pct": 0.8,
-      "dist_ema20_pct": 0.53,
+      "sep_pct": 0.76,
+      "dist_ema20_pct": -0.62,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "Silver",
       "ticker": "SI=F",
-      "price": 66.87999725341797,
+      "price": 66.17500305175781,
       "trend": "down",
-      "sep_pct": -0.68,
-      "dist_ema20_pct": 1.65,
-      "status": "no_setup",
-      "plain": "downtrend \u00b7 no setup right now"
+      "sep_pct": -0.72,
+      "dist_ema20_pct": 0.7,
+      "status": "watch",
+      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "EUR/USD",
       "ticker": "EURUSD=X",
-      "price": 1.1613997220993042,
+      "price": 1.1627637147903442,
       "trend": "down",
-      "sep_pct": -0.04,
-      "dist_ema20_pct": 0.12,
+      "sep_pct": -0.01,
+      "dist_ema20_pct": 0.21,
       "status": "flat",
       "plain": "No clear trend \u00b7 staying out of the chop"
     },
     {
       "name": "GBP/USD",
       "ticker": "GBPUSD=X",
-      "price": 1.3517167568206787,
+      "price": 1.3546831607818604,
       "trend": "up",
-      "sep_pct": 0.49,
-      "dist_ema20_pct": -0.13,
+      "sep_pct": 0.5,
+      "dist_ema20_pct": 0.08,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "USD/JPY",
       "ticker": "JPY=X",
-      "price": 156.19700622558594,
+      "price": 153.85499572753906,
       "trend": "up",
-      "sep_pct": 1.08,
-      "dist_ema20_pct": -1.72,
+      "sep_pct": 0.97,
+      "dist_ema20_pct": -2.96,
       "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
-      "price": 0.7206376194953918,
+      "price": 0.722089946269989,
       "trend": "up",
-      "sep_pct": 1.79,
-      "dist_ema20_pct": 0.96,
+      "sep_pct": 1.83,
+      "dist_ema20_pct": 1.05,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     }
