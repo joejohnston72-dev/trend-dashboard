@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-09T06:30:26+00:00",
+  "generated_at": "2026-09-09T21:42:42+00:00",
   "headline": {
-    "n": 13,
-    "total_R": -0.73,
-    "win_rate": 46.2,
+    "n": 14,
+    "total_R": -1.74,
+    "win_rate": 42.9,
     "avg_win_R": 1.06,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.056,
-    "profit_factor": 0.8968926553672318,
-    "max_drawdown_R": -4.05
+    "expectancy_R": -0.124,
+    "profit_factor": 0.7851137487636005,
+    "max_drawdown_R": -5.06
   },
   "equity": [
     {
@@ -75,6 +75,11 @@
       "exit_at": "2026-09-03",
       "R": -1.015,
       "cum_R": -0.73
+    },
+    {
+      "exit_at": "2026-09-09",
+      "R": -1.008,
+      "cum_R": -1.738
     }
   ],
   "books": [
@@ -109,16 +114,16 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-09-08T23:00:30+00:00",
+      "generated_at": "2026-09-09T21:42:42+00:00",
       "headline": {
-        "n": 10,
-        "total_R": 2.31,
-        "expectancy_R": 0.231,
-        "win_rate": 60.0,
+        "n": 11,
+        "total_R": 1.3,
+        "expectancy_R": 0.118,
+        "win_rate": 54.5,
         "avg_win_R": 1.06,
         "avg_loss_R": -1.01,
-        "profit_factor": 1.57,
-        "max_drawdown_R": -2.01,
+        "profit_factor": 1.26,
+        "max_drawdown_R": -2.02,
         "max_consecutive_losses": 2,
         "equity_curve_R": [
           0.08,
@@ -130,13 +135,14 @@
           2.35,
           1.34,
           3.32,
-          2.31
+          2.31,
+          1.3
         ]
       },
       "counts": {
-        "open": 2,
+        "open": 1,
         "pending": 0,
-        "closed": 10
+        "closed": 11
       },
       "data_collection": true,
       "correlated_book": false
@@ -144,29 +150,16 @@
   ],
   "open": [
     {
-      "market": "FTSE 100",
-      "direction": "long",
-      "entry": 10816.2998,
-      "stop": 10684.4004,
-      "target": 11080.0986,
-      "entry_date": "2026-08-24",
-      "price": 10822.099609375,
-      "unreal_R": 0.04,
-      "expected_return_pct": 2.44,
-      "return_pct": 0.05,
-      "book": "Markets"
-    },
-    {
       "market": "S&P 500",
       "direction": "long",
       "entry": 7750.1899,
       "stop": 7611.2002,
       "target": 8028.1694,
       "entry_date": "2026-09-04",
-      "price": 7673.52001953125,
-      "unreal_R": -0.55,
+      "price": 7636.35986328125,
+      "unreal_R": -0.82,
       "expected_return_pct": 3.59,
-      "return_pct": -0.99,
+      "return_pct": -1.47,
       "book": "Markets"
     }
   ]
