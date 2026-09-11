@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-09-09T21:42:42+00:00",
+  "generated_at": "2026-09-11T15:42:21+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -16,15 +16,15 @@
   "data_collection": true,
   "correlated_book": false,
   "headline": {
-    "n": 11,
-    "total_R": 1.3,
-    "expectancy_R": 0.118,
-    "win_rate": 54.5,
+    "n": 12,
+    "total_R": 0.3,
+    "expectancy_R": 0.025,
+    "win_rate": 50.0,
     "avg_win_R": 1.06,
     "avg_loss_R": -1.01,
-    "profit_factor": 1.26,
-    "max_drawdown_R": -2.02,
-    "max_consecutive_losses": 2,
+    "profit_factor": 1.05,
+    "max_drawdown_R": -3.03,
+    "max_consecutive_losses": 3,
     "equity_curve_R": [
       0.08,
       0.81,
@@ -36,19 +36,20 @@
       1.34,
       3.32,
       2.31,
-      1.3
+      1.3,
+      0.3
     ]
   },
   "sample_gate": {
-    "n": 11,
+    "n": 12,
     "target": 30,
     "met": false,
-    "pct": 37
+    "pct": 40
   },
   "counts": {
-    "open": 1,
+    "open": 0,
     "pending": 0,
-    "closed": 11
+    "closed": 12
   },
   "equity": [
     {
@@ -116,6 +117,12 @@
       "market": "FTSE 100",
       "R": -1.008,
       "cum_R": 1.3
+    },
+    {
+      "exit_at": "2026-09-10",
+      "market": "S&P 500",
+      "R": -1.003,
+      "cum_R": 0.297
     }
   ],
   "closed_R": [
@@ -162,24 +169,26 @@
     {
       "exit_at": "2026-09-09",
       "R": -1.008
+    },
+    {
+      "exit_at": "2026-09-10",
+      "R": -1.003
     }
   ],
-  "open": [
+  "open": [],
+  "pending": [],
+  "closed": [
     {
       "market": "S&P 500",
       "direction": "long",
-      "entry": 7750.1899,
-      "stop": 7611.2002,
-      "target": 8028.1694,
-      "entry_date": "2026-09-04",
-      "price": 7636.35986328125,
-      "unreal_R": -0.82,
+      "outcome_R": -1.0,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-09-10",
+      "actual_return_pct": -1.79,
       "expected_return_pct": 3.59,
-      "return_pct": -1.47
-    }
-  ],
-  "pending": [],
-  "closed": [
+      "vs_expected_pct": -5.38
+    },
     {
       "market": "FTSE 100",
       "direction": "long",
@@ -306,90 +315,90 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "price": 7636.35986328125,
+      "price": 7591.7001953125,
       "trend": "up",
-      "sep_pct": 5.62,
-      "dist_ema20_pct": -0.51,
-      "status": "in_trade",
-      "plain": "Uptrend \u00b7 trade open, riding it"
+      "sep_pct": 5.55,
+      "dist_ema20_pct": -1.0,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "DAX 40",
       "ticker": "^GDAXI",
-      "price": 25576.44921875,
+      "price": 25361.150390625,
       "trend": "up",
-      "sep_pct": 3.7,
-      "dist_ema20_pct": -1.74,
+      "sep_pct": 3.58,
+      "dist_ema20_pct": -2.36,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "price": 10670.0595703125,
+      "price": 10608.900390625,
       "trend": "up",
-      "sep_pct": 3.84,
-      "dist_ema20_pct": -1.14,
+      "sep_pct": 3.77,
+      "dist_ema20_pct": -1.56,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "Gold",
       "ticker": "GC=F",
-      "price": 4447.2001953125,
+      "price": 4364.5,
       "trend": "up",
-      "sep_pct": 0.82,
-      "dist_ema20_pct": 0.49,
-      "status": "watch",
-      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+      "sep_pct": 0.8,
+      "dist_ema20_pct": -1.2,
+      "status": "no_setup",
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "Silver",
       "ticker": "SI=F",
-      "price": 67.92500305175781,
+      "price": 64.28399658203125,
       "trend": "down",
-      "sep_pct": -0.56,
-      "dist_ema20_pct": 2.93,
+      "sep_pct": -0.59,
+      "dist_ema20_pct": -2.32,
       "status": "no_setup",
       "plain": "downtrend \u00b7 no setup right now"
     },
     {
       "name": "EUR/USD",
       "ticker": "EURUSD=X",
-      "price": 1.1641442775726318,
-      "trend": "down",
-      "sep_pct": -0.01,
-      "dist_ema20_pct": 0.3,
+      "price": 1.1633858680725098,
+      "trend": "up",
+      "sep_pct": 0.01,
+      "dist_ema20_pct": 0.22,
       "status": "flat",
       "plain": "No clear trend \u00b7 staying out of the chop"
     },
     {
       "name": "GBP/USD",
       "ticker": "GBPUSD=X",
-      "price": 1.3547931909561157,
+      "price": 1.3551971912384033,
       "trend": "up",
-      "sep_pct": 0.5,
-      "dist_ema20_pct": 0.08,
+      "sep_pct": 0.51,
+      "dist_ema20_pct": 0.1,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "USD/JPY",
       "ticker": "JPY=X",
-      "price": 153.52499389648438,
+      "price": 153.572998046875,
       "trend": "up",
-      "sep_pct": 0.87,
-      "dist_ema20_pct": -2.88,
+      "sep_pct": 0.76,
+      "dist_ema20_pct": -2.57,
       "status": "no_setup",
       "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
-      "price": 0.7218131422996521,
+      "price": 0.722089946269989,
       "trend": "up",
-      "sep_pct": 1.85,
-      "dist_ema20_pct": 0.91,
+      "sep_pct": 1.89,
+      "dist_ema20_pct": 0.86,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     }
