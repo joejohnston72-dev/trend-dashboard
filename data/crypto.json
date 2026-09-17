@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-09-16T09:24:09+00:00",
+  "generated_at": "2026-09-17T06:22:35+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -35,8 +35,8 @@
     "pct": 20
   },
   "counts": {
-    "open": 1,
-    "pending": 3,
+    "open": 3,
+    "pending": 2,
     "closed": 6
   },
   "equity": [
@@ -115,18 +115,37 @@
       "unreal_R": 0.21,
       "expected_return_pct": 20.2,
       "return_pct": 2.09
-    }
-  ],
-  "pending": [
+    },
     {
       "market": "Cardano",
       "direction": "short",
-      "signal_date": "2026-09-10"
+      "entry": 0.2047,
+      "stop": 0.2309,
+      "target": 0.1523,
+      "entry_date": "2026-09-11",
+      "price": 0.19542300701141357,
+      "unreal_R": 0.35,
+      "expected_return_pct": 25.6,
+      "return_pct": 4.53
     },
     {
       "market": "Dogecoin",
       "direction": "short",
-      "signal_date": "2026-09-10"
+      "entry": 0.0829,
+      "stop": 0.0915,
+      "target": 0.0657,
+      "entry_date": "2026-09-11",
+      "price": 0.08007600158452988,
+      "unreal_R": 0.33,
+      "expected_return_pct": 20.75,
+      "return_pct": 3.41
+    }
+  ],
+  "pending": [
+    {
+      "market": "Litecoin",
+      "direction": "short",
+      "signal_date": "2026-09-15"
     },
     {
       "market": "XRP",
@@ -244,6 +263,36 @@
       "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
+      "name": "Litecoin",
+      "ticker": "LTC-USD",
+      "price": 51.253684997558594,
+      "trend": "down",
+      "sep_pct": -7.94,
+      "dist_ema20_pct": -1.27,
+      "status": "in_trade",
+      "plain": "Downtrend \u00b7 trade open, riding it"
+    },
+    {
+      "name": "Cardano",
+      "ticker": "ADA-USD",
+      "price": 0.19542300701141357,
+      "trend": "down",
+      "sep_pct": -17.71,
+      "dist_ema20_pct": -5.74,
+      "status": "in_trade",
+      "plain": "Downtrend \u00b7 trade open, riding it"
+    },
+    {
+      "name": "Dogecoin",
+      "ticker": "DOGE-USD",
+      "price": 0.08007600158452988,
+      "trend": "down",
+      "sep_pct": -13.07,
+      "dist_ema20_pct": -5.07,
+      "status": "in_trade",
+      "plain": "Downtrend \u00b7 trade open, riding it"
+    },
+    {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
       "price": 7.273458957672119,
@@ -255,12 +304,8 @@
     }
   ],
   "today": {
-    "new_signals": 2,
-    "closed_today": 3,
-    "data_gaps": [
-      "Litecoin: LTC-USD: download failed ('NoneType' object is not subscriptable)",
-      "Cardano: ADA-USD: download failed ('NoneType' object is not subscriptable)",
-      "Dogecoin: DOGE-USD: download failed ('NoneType' object is not subscriptable)"
-    ]
+    "new_signals": 4,
+    "closed_today": 0,
+    "data_gaps": []
   }
 }
