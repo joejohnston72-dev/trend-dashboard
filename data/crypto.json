@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-09-17T06:22:35+00:00",
+  "generated_at": "2026-09-20T09:04:16+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -10,34 +10,37 @@
   "data_collection": true,
   "correlated_book": true,
   "headline": {
-    "n": 6,
-    "total_R": -6.08,
-    "expectancy_R": -1.014,
+    "n": 9,
+    "total_R": -9.11,
+    "expectancy_R": -1.012,
     "win_rate": 0.0,
     "avg_win_R": 0.0,
     "avg_loss_R": -1.01,
     "profit_factor": 0.0,
-    "max_drawdown_R": -6.08,
-    "max_consecutive_losses": 6,
+    "max_drawdown_R": -9.11,
+    "max_consecutive_losses": 9,
     "equity_curve_R": [
       -1.02,
       -2.02,
       -3.04,
       -4.06,
       -5.07,
-      -6.08
+      -6.08,
+      -7.09,
+      -8.1,
+      -9.11
     ]
   },
   "sample_gate": {
-    "n": 6,
+    "n": 9,
     "target": 30,
     "met": false,
-    "pct": 20
+    "pct": 30
   },
   "counts": {
-    "open": 3,
-    "pending": 2,
-    "closed": 6
+    "open": 2,
+    "pending": 0,
+    "closed": 9
   },
   "equity": [
     {
@@ -75,6 +78,24 @@
       "market": "XRP",
       "R": -1.011,
       "cum_R": -6.082
+    },
+    {
+      "exit_at": "2026-09-18",
+      "market": "Avalanche",
+      "R": -1.008,
+      "cum_R": -7.09
+    },
+    {
+      "exit_at": "2026-09-18",
+      "market": "Litecoin",
+      "R": -1.01,
+      "cum_R": -8.1
+    },
+    {
+      "exit_at": "2026-09-19",
+      "market": "Cardano",
+      "R": -1.006,
+      "cum_R": -9.107
     }
   ],
   "closed_R": [
@@ -101,33 +122,21 @@
     {
       "exit_at": "2026-09-14",
       "R": -1.011
+    },
+    {
+      "exit_at": "2026-09-18",
+      "R": -1.008
+    },
+    {
+      "exit_at": "2026-09-18",
+      "R": -1.01
+    },
+    {
+      "exit_at": "2026-09-19",
+      "R": -1.006
     }
   ],
   "open": [
-    {
-      "market": "Avalanche",
-      "direction": "short",
-      "entry": 7.4288,
-      "stop": 8.1789,
-      "target": 5.9285,
-      "entry_date": "2026-09-11",
-      "price": 7.273458957672119,
-      "unreal_R": 0.21,
-      "expected_return_pct": 20.2,
-      "return_pct": 2.09
-    },
-    {
-      "market": "Cardano",
-      "direction": "short",
-      "entry": 0.2047,
-      "stop": 0.2309,
-      "target": 0.1523,
-      "entry_date": "2026-09-11",
-      "price": 0.19542300701141357,
-      "unreal_R": 0.35,
-      "expected_return_pct": 25.6,
-      "return_pct": 4.53
-    },
     {
       "market": "Dogecoin",
       "direction": "short",
@@ -135,25 +144,59 @@
       "stop": 0.0915,
       "target": 0.0657,
       "entry_date": "2026-09-11",
-      "price": 0.08007600158452988,
-      "unreal_R": 0.33,
+      "price": 0.08772200345993042,
+      "unreal_R": -0.56,
       "expected_return_pct": 20.75,
-      "return_pct": 3.41
-    }
-  ],
-  "pending": [
-    {
-      "market": "Litecoin",
-      "direction": "short",
-      "signal_date": "2026-09-15"
+      "return_pct": -5.82
     },
     {
       "market": "XRP",
       "direction": "short",
-      "signal_date": "2026-09-15"
+      "entry": 1.2847,
+      "stop": 1.4871,
+      "target": 0.8799,
+      "entry_date": "2026-09-16",
+      "price": 1.410446047782898,
+      "unreal_R": -0.62,
+      "expected_return_pct": 31.51,
+      "return_pct": -9.79
     }
   ],
+  "pending": [],
   "closed": [
+    {
+      "market": "Cardano",
+      "direction": "short",
+      "outcome_R": -1.01,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-09-19",
+      "actual_return_pct": -12.8,
+      "expected_return_pct": 25.6,
+      "vs_expected_pct": -38.4
+    },
+    {
+      "market": "Litecoin",
+      "direction": "short",
+      "outcome_R": -1.01,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-09-18",
+      "actual_return_pct": -7.56,
+      "expected_return_pct": 15.13,
+      "vs_expected_pct": -22.69
+    },
+    {
+      "market": "Avalanche",
+      "direction": "short",
+      "outcome_R": -1.01,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-09-18",
+      "actual_return_pct": -10.1,
+      "expected_return_pct": 20.2,
+      "vs_expected_pct": -30.3
+    },
     {
       "market": "XRP",
       "direction": "short",
@@ -225,87 +268,87 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "price": 75612.5078125,
+      "price": 81233.6796875,
       "trend": "up",
-      "sep_pct": 0.09,
-      "dist_ema20_pct": -1.8,
-      "status": "flat",
-      "plain": "No clear trend \u00b7 staying out of the chop"
+      "sep_pct": 0.94,
+      "dist_ema20_pct": 4.45,
+      "status": "no_setup",
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "Ethereum",
       "ticker": "ETH-USD",
-      "price": 2399.0869140625,
+      "price": 2631.962646484375,
       "trend": "up",
-      "sep_pct": 1.44,
-      "dist_ema20_pct": -1.49,
+      "sep_pct": 2.78,
+      "dist_ema20_pct": 6.21,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "Solana",
       "ticker": "SOL-USD",
-      "price": 96.88836669921875,
+      "price": 111.01493835449219,
       "trend": "up",
-      "sep_pct": 0.19,
-      "dist_ema20_pct": -2.76,
-      "status": "flat",
-      "plain": "No clear trend \u00b7 staying out of the chop"
+      "sep_pct": 1.83,
+      "dist_ema20_pct": 8.24,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "XRP",
       "ticker": "XRP-USD",
-      "price": 1.2846920490264893,
+      "price": 1.410446047782898,
       "trend": "down",
-      "sep_pct": -6.43,
-      "dist_ema20_pct": -5.51,
+      "sep_pct": -5.42,
+      "dist_ema20_pct": 3.89,
       "status": "in_trade",
       "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "Litecoin",
       "ticker": "LTC-USD",
-      "price": 51.253684997558594,
+      "price": 58.332252502441406,
       "trend": "down",
-      "sep_pct": -7.94,
-      "dist_ema20_pct": -1.27,
-      "status": "in_trade",
-      "plain": "Downtrend \u00b7 trade open, riding it"
+      "sep_pct": -6.13,
+      "dist_ema20_pct": 8.83,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Cardano",
       "ticker": "ADA-USD",
-      "price": 0.19542300701141357,
+      "price": 0.22776399552822113,
       "trend": "down",
-      "sep_pct": -17.71,
-      "dist_ema20_pct": -5.74,
-      "status": "in_trade",
-      "plain": "Downtrend \u00b7 trade open, riding it"
+      "sep_pct": -16.95,
+      "dist_ema20_pct": 8.18,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Dogecoin",
       "ticker": "DOGE-USD",
-      "price": 0.08007600158452988,
+      "price": 0.08772200345993042,
       "trend": "down",
-      "sep_pct": -13.07,
-      "dist_ema20_pct": -5.07,
+      "sep_pct": -12.18,
+      "dist_ema20_pct": 3.86,
       "status": "in_trade",
       "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
-      "price": 7.273458957672119,
+      "price": 10.086183547973633,
       "trend": "down",
-      "sep_pct": -16.65,
-      "dist_ema20_pct": -2.15,
-      "status": "in_trade",
-      "plain": "Downtrend \u00b7 trade open, riding it"
+      "sep_pct": -14.44,
+      "dist_ema20_pct": 23.0,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
     }
   ],
   "today": {
-    "new_signals": 4,
-    "closed_today": 0,
+    "new_signals": 0,
+    "closed_today": 3,
     "data_gaps": []
   }
 }
