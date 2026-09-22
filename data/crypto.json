@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-09-21T06:30:29+00:00",
+  "generated_at": "2026-09-22T18:55:32+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -10,15 +10,15 @@
   "data_collection": true,
   "correlated_book": true,
   "headline": {
-    "n": 9,
-    "total_R": -9.11,
-    "expectancy_R": -1.012,
+    "n": 11,
+    "total_R": -11.12,
+    "expectancy_R": -1.011,
     "win_rate": 0.0,
     "avg_win_R": 0.0,
     "avg_loss_R": -1.01,
     "profit_factor": 0.0,
-    "max_drawdown_R": -9.11,
-    "max_consecutive_losses": 9,
+    "max_drawdown_R": -11.12,
+    "max_consecutive_losses": 11,
     "equity_curve_R": [
       -1.02,
       -2.02,
@@ -28,19 +28,21 @@
       -6.08,
       -7.09,
       -8.1,
-      -9.11
+      -9.11,
+      -10.11,
+      -11.12
     ]
   },
   "sample_gate": {
-    "n": 9,
+    "n": 11,
     "target": 30,
     "met": false,
-    "pct": 30
+    "pct": 37
   },
   "counts": {
-    "open": 2,
+    "open": 0,
     "pending": 0,
-    "closed": 9
+    "closed": 11
   },
   "equity": [
     {
@@ -96,6 +98,18 @@
       "market": "Cardano",
       "R": -1.006,
       "cum_R": -9.107
+    },
+    {
+      "exit_at": "2026-09-21",
+      "market": "Dogecoin",
+      "R": -1.008,
+      "cum_R": -10.115
+    },
+    {
+      "exit_at": "2026-09-21",
+      "market": "XRP",
+      "R": -1.006,
+      "cum_R": -11.121
     }
   ],
   "closed_R": [
@@ -134,36 +148,41 @@
     {
       "exit_at": "2026-09-19",
       "R": -1.006
+    },
+    {
+      "exit_at": "2026-09-21",
+      "R": -1.008
+    },
+    {
+      "exit_at": "2026-09-21",
+      "R": -1.006
     }
   ],
-  "open": [
-    {
-      "market": "Dogecoin",
-      "direction": "short",
-      "entry": 0.0829,
-      "stop": 0.0915,
-      "target": 0.0657,
-      "entry_date": "2026-09-11",
-      "price": null,
-      "unreal_R": null,
-      "expected_return_pct": 20.75,
-      "return_pct": null
-    },
+  "open": [],
+  "pending": [],
+  "closed": [
     {
       "market": "XRP",
       "direction": "short",
-      "entry": 1.2847,
-      "stop": 1.4871,
-      "target": 0.8799,
-      "entry_date": "2026-09-16",
-      "price": null,
-      "unreal_R": null,
+      "outcome_R": -1.01,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-09-21",
+      "actual_return_pct": -15.75,
       "expected_return_pct": 31.51,
-      "return_pct": null
-    }
-  ],
-  "pending": [],
-  "closed": [
+      "vs_expected_pct": -47.26
+    },
+    {
+      "market": "Dogecoin",
+      "direction": "short",
+      "outcome_R": -1.01,
+      "status": "LOST",
+      "reason": "hit its get-out",
+      "exit_at": "2026-09-21",
+      "actual_return_pct": -10.37,
+      "expected_return_pct": 20.75,
+      "vs_expected_pct": -31.12
+    },
     {
       "market": "Cardano",
       "direction": "short",
@@ -268,43 +287,87 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "price": 81233.6796875,
+      "price": 86602.9140625,
       "trend": "up",
-      "sep_pct": 0.94,
-      "dist_ema20_pct": 4.45,
-      "status": "no_setup",
-      "plain": "uptrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Ethereum",
-      "ticker": "ETH-USD",
-      "price": 2631.962646484375,
-      "trend": "up",
-      "sep_pct": 2.78,
-      "dist_ema20_pct": 6.21,
+      "sep_pct": 1.7,
+      "dist_ema20_pct": 9.04,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
+      "name": "Ethereum",
+      "ticker": "ETH-USD",
+      "price": 2776.46826171875,
+      "trend": "up",
+      "sep_pct": 3.83,
+      "dist_ema20_pct": 9.5,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Solana",
+      "ticker": "SOL-USD",
+      "price": 118.75012969970703,
+      "trend": "up",
+      "sep_pct": 3.17,
+      "dist_ema20_pct": 12.19,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "XRP",
+      "ticker": "XRP-USD",
+      "price": 1.5330430269241333,
+      "trend": "down",
+      "sep_pct": -4.5,
+      "dist_ema20_pct": 10.16,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Litecoin",
+      "ticker": "LTC-USD",
+      "price": 62.002445220947266,
+      "trend": "down",
+      "sep_pct": -4.86,
+      "dist_ema20_pct": 12.1,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Cardano",
+      "ticker": "ADA-USD",
+      "price": 0.2448119968175888,
+      "trend": "down",
+      "sep_pct": -15.81,
+      "dist_ema20_pct": 12.52,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Dogecoin",
+      "ticker": "DOGE-USD",
+      "price": 0.09962199628353119,
+      "trend": "down",
+      "sep_pct": -11.07,
+      "dist_ema20_pct": 13.63,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
-      "price": 11.337065696716309,
+      "price": 11.22792911529541,
       "trend": "down",
-      "sep_pct": -13.05,
-      "dist_ema20_pct": 28.5,
+      "sep_pct": -11.38,
+      "dist_ema20_pct": 25.15,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     }
   ],
   "today": {
     "new_signals": 0,
-    "closed_today": 0,
-    "data_gaps": [
-      "Solana: SOL-USD: download failed ('NoneType' object is not subscriptable)",
-      "XRP: XRP-USD: download failed ('NoneType' object is not subscriptable)",
-      "Litecoin: LTC-USD: download failed ('NoneType' object is not subscriptable)",
-      "Cardano: ADA-USD: download failed ('NoneType' object is not subscriptable)",
-      "Dogecoin: DOGE-USD: download failed ('NoneType' object is not subscriptable)"
-    ]
+    "closed_today": 2,
+    "data_gaps": []
   }
 }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T08:28:33+00:00",
+  "generated_at": "2026-09-22T18:55:32+00:00",
   "headline": {
-    "n": 21,
-    "total_R": -8.81,
-    "win_rate": 28.6,
+    "n": 23,
+    "total_R": -10.82,
+    "win_rate": 26.1,
     "avg_win_R": 1.06,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.42,
-    "profit_factor": 0.41886543535620063,
-    "max_drawdown_R": -12.13
+    "expectancy_R": -0.471,
+    "profit_factor": 0.3697449633166415,
+    "max_drawdown_R": -14.15
   },
   "equity": [
     {
@@ -115,23 +115,33 @@
       "exit_at": "2026-09-19",
       "R": -1.006,
       "cum_R": -8.81
+    },
+    {
+      "exit_at": "2026-09-21",
+      "R": -1.008,
+      "cum_R": -9.818
+    },
+    {
+      "exit_at": "2026-09-21",
+      "R": -1.006,
+      "cum_R": -10.824
     }
   ],
   "books": [
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-09-21T06:30:29+00:00",
+      "generated_at": "2026-09-22T18:55:32+00:00",
       "headline": {
-        "n": 9,
-        "total_R": -9.11,
-        "expectancy_R": -1.012,
+        "n": 11,
+        "total_R": -11.12,
+        "expectancy_R": -1.011,
         "win_rate": 0.0,
         "avg_win_R": 0.0,
         "avg_loss_R": -1.01,
         "profit_factor": 0.0,
-        "max_drawdown_R": -9.11,
-        "max_consecutive_losses": 9,
+        "max_drawdown_R": -11.12,
+        "max_consecutive_losses": 11,
         "equity_curve_R": [
           -1.02,
           -2.02,
@@ -141,13 +151,15 @@
           -6.08,
           -7.09,
           -8.1,
-          -9.11
+          -9.11,
+          -10.11,
+          -11.12
         ]
       },
       "counts": {
-        "open": 2,
+        "open": 0,
         "pending": 0,
-        "closed": 9
+        "closed": 11
       },
       "data_collection": true,
       "correlated_book": true
@@ -191,32 +203,6 @@
     }
   ],
   "open": [
-    {
-      "market": "Dogecoin",
-      "direction": "short",
-      "entry": 0.0829,
-      "stop": 0.0915,
-      "target": 0.0657,
-      "entry_date": "2026-09-11",
-      "price": null,
-      "unreal_R": null,
-      "expected_return_pct": 20.75,
-      "return_pct": null,
-      "book": "Crypto"
-    },
-    {
-      "market": "XRP",
-      "direction": "short",
-      "entry": 1.2847,
-      "stop": 1.4871,
-      "target": 0.8799,
-      "entry_date": "2026-09-16",
-      "price": null,
-      "unreal_R": null,
-      "expected_return_pct": 31.51,
-      "return_pct": null,
-      "book": "Crypto"
-    },
     {
       "market": "S&P 500",
       "direction": "long",
