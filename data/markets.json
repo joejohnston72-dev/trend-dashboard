@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-09-23T23:00:23+00:00",
+  "generated_at": "2026-09-24T06:49:43+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
