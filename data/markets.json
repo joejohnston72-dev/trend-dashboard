@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-09-24T06:49:43+00:00",
+  "generated_at": "2026-09-24T21:05:04+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -183,10 +183,10 @@
       "stop": 7507.77,
       "target": 8062.9502,
       "entry_date": "2026-09-21",
-      "price": 7706.02978515625,
-      "unreal_R": 0.07,
+      "price": 7704.1298828125,
+      "unreal_R": 0.06,
       "expected_return_pct": 4.81,
-      "return_pct": 0.17
+      "return_pct": 0.15
     }
   ],
   "pending": [],
@@ -328,92 +328,92 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "price": 7706.02978515625,
+      "price": 7704.1298828125,
       "trend": "up",
-      "sep_pct": 5.22,
-      "dist_ema20_pct": 0.58,
+      "sep_pct": 5.21,
+      "dist_ema20_pct": 0.51,
       "status": "in_trade",
       "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "DAX 40",
       "ticker": "^GDAXI",
-      "price": 25410.630859375,
+      "price": 25266.529296875,
       "trend": "up",
-      "sep_pct": 3.12,
-      "dist_ema20_pct": -1.14,
+      "sep_pct": 3.01,
+      "dist_ema20_pct": -1.56,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "price": 10705.2998046875,
+      "price": 10679.990234375,
       "trend": "up",
-      "sep_pct": 3.46,
-      "dist_ema20_pct": -0.29,
+      "sep_pct": 3.41,
+      "dist_ema20_pct": -0.48,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "Gold",
       "ticker": "GC=F",
-      "price": 4318.39990234375,
+      "price": 4308.2998046875,
       "trend": "up",
-      "sep_pct": 0.9,
-      "dist_ema20_pct": -2.14,
+      "sep_pct": 0.83,
+      "dist_ema20_pct": -2.15,
       "status": "no_setup",
       "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "Silver",
       "ticker": "SI=F",
-      "price": 64.38200378417969,
+      "price": 64.2750015258789,
       "trend": "down",
-      "sep_pct": -0.6,
-      "dist_ema20_pct": -1.45,
+      "sep_pct": -0.62,
+      "dist_ema20_pct": -1.47,
       "status": "no_setup",
       "plain": "downtrend \u00b7 no setup right now"
     },
     {
       "name": "EUR/USD",
       "ticker": "EURUSD=X",
-      "price": 1.1447935104370117,
+      "price": 1.138044834136963,
       "trend": "down",
-      "sep_pct": -0.15,
-      "dist_ema20_pct": -0.84,
-      "status": "flat",
-      "plain": "No clear trend \u00b7 staying out of the chop"
+      "sep_pct": -0.21,
+      "dist_ema20_pct": -1.3,
+      "status": "no_setup",
+      "plain": "downtrend \u00b7 no setup right now"
     },
     {
       "name": "GBP/USD",
       "ticker": "GBPUSD=X",
-      "price": 1.3343117237091064,
+      "price": 1.321737289428711,
       "trend": "up",
-      "sep_pct": 0.32,
-      "dist_ema20_pct": -0.9,
+      "sep_pct": 0.26,
+      "dist_ema20_pct": -1.69,
       "status": "no_setup",
       "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "USD/JPY",
       "ticker": "JPY=X",
-      "price": 157.46400451660156,
+      "price": 158.83700561523438,
       "trend": "up",
-      "sep_pct": 0.28,
-      "dist_ema20_pct": 0.51,
-      "status": "watch",
-      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+      "sep_pct": 0.3,
+      "dist_ema20_pct": 1.24,
+      "status": "no_setup",
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
-      "price": 0.7112102508544922,
+      "price": 0.7021485567092896,
       "trend": "up",
-      "sep_pct": 1.81,
-      "dist_ema20_pct": -0.35,
-      "status": "watch",
-      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+      "sep_pct": 1.76,
+      "dist_ema20_pct": -1.49,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
     }
   ],
   "today": {
