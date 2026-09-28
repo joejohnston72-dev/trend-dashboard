@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-09-27T19:43:07+00:00",
+  "generated_at": "2026-09-28T10:49:51+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -283,91 +283,19 @@
       "vs_expected_pct": -15.89
     }
   ],
-  "markets": [
-    {
-      "name": "Bitcoin",
-      "ticker": "BTC-USD",
-      "price": 84406.453125,
-      "trend": "up",
-      "sep_pct": 3.35,
-      "dist_ema20_pct": 3.95,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Ethereum",
-      "ticker": "ETH-USD",
-      "price": 2695.213134765625,
-      "trend": "up",
-      "sep_pct": 5.33,
-      "dist_ema20_pct": 4.03,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Solana",
-      "ticker": "SOL-USD",
-      "price": 121.42564392089844,
-      "trend": "up",
-      "sep_pct": 5.75,
-      "dist_ema20_pct": 9.33,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
-    },
-    {
-      "name": "XRP",
-      "ticker": "XRP-USD",
-      "price": 1.5280979871749878,
-      "trend": "down",
-      "sep_pct": -1.99,
-      "dist_ema20_pct": 5.68,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Litecoin",
-      "ticker": "LTC-USD",
-      "price": 72.6342544555664,
-      "trend": "down",
-      "sep_pct": -0.49,
-      "dist_ema20_pct": 17.15,
-      "status": "no_setup",
-      "plain": "downtrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Cardano",
-      "ticker": "ADA-USD",
-      "price": 0.25430798530578613,
-      "trend": "down",
-      "sep_pct": -12.42,
-      "dist_ema20_pct": 10.07,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Dogecoin",
-      "ticker": "DOGE-USD",
-      "price": 0.09676600247621536,
-      "trend": "down",
-      "sep_pct": -8.76,
-      "dist_ema20_pct": 6.66,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Avalanche",
-      "ticker": "AVAX-USD",
-      "price": 10.859573364257812,
-      "trend": "down",
-      "sep_pct": -6.7,
-      "dist_ema20_pct": 14.49,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
-    }
-  ],
+  "markets": [],
   "today": {
     "new_signals": 0,
     "closed_today": 0,
-    "data_gaps": []
+    "data_gaps": [
+      "Bitcoin: BTC-USD: download failed ('NoneType' object is not subscriptable)",
+      "Ethereum: ETH-USD: download failed ('NoneType' object is not subscriptable)",
+      "Solana: SOL-USD: download failed ('NoneType' object is not subscriptable)",
+      "XRP: XRP-USD: download failed ('NoneType' object is not subscriptable)",
+      "Litecoin: LTC-USD: download failed ('NoneType' object is not subscriptable)",
+      "Cardano: ADA-USD: download failed ('NoneType' object is not subscriptable)",
+      "Dogecoin: DOGE-USD: download failed ('NoneType' object is not subscriptable)",
+      "Avalanche: AVAX-USD: download failed ('NoneType' object is not subscriptable)"
+    ]
   }
 }
