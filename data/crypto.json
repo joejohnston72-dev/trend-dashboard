@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-10-01T03:01:05+00:00",
+  "generated_at": "2026-10-02T10:14:47+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -285,82 +285,72 @@
   ],
   "markets": [
     {
-      "name": "Bitcoin",
-      "ticker": "BTC-USD",
-      "price": 83622.4296875,
-      "trend": "up",
-      "sep_pct": 4.12,
-      "dist_ema20_pct": 2.2,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
-    },
-    {
       "name": "Ethereum",
       "ticker": "ETH-USD",
-      "price": 2676.72216796875,
+      "price": 2705.537109375,
       "trend": "up",
-      "sep_pct": 6.3,
-      "dist_ema20_pct": 2.43,
+      "sep_pct": 6.88,
+      "dist_ema20_pct": 2.91,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "Solana",
       "ticker": "SOL-USD",
-      "price": 119.05546569824219,
+      "price": 118.3978271484375,
       "trend": "up",
-      "sep_pct": 7.42,
-      "dist_ema20_pct": 5.4,
+      "sep_pct": 7.8,
+      "dist_ema20_pct": 4.02,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "XRP",
       "ticker": "XRP-USD",
-      "price": 1.4900319576263428,
+      "price": 1.4940379858016968,
       "trend": "down",
-      "sep_pct": -0.96,
-      "dist_ema20_pct": 2.24,
+      "sep_pct": -0.37,
+      "dist_ema20_pct": 2.08,
       "status": "no_setup",
       "plain": "downtrend \u00b7 no setup right now"
     },
     {
       "name": "Litecoin",
       "ticker": "LTC-USD",
-      "price": 66.79490661621094,
+      "price": 68.06305694580078,
       "trend": "up",
-      "sep_pct": 1.99,
-      "dist_ema20_pct": 6.49,
+      "sep_pct": 3.12,
+      "dist_ema20_pct": 6.85,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "Cardano",
       "ticker": "ADA-USD",
-      "price": 0.2442989945411682,
+      "price": 0.24626700580120087,
       "trend": "down",
-      "sep_pct": -10.49,
-      "dist_ema20_pct": 4.27,
+      "sep_pct": -9.52,
+      "dist_ema20_pct": 4.11,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Dogecoin",
       "ticker": "DOGE-USD",
-      "price": 0.09385599941015244,
+      "price": 0.09432800114154816,
       "trend": "down",
-      "sep_pct": -7.35,
-      "dist_ema20_pct": 2.53,
+      "sep_pct": -6.82,
+      "dist_ema20_pct": 2.45,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
-      "price": 11.435550689697266,
+      "price": 10.999374389648438,
       "trend": "down",
-      "sep_pct": -3.44,
-      "dist_ema20_pct": 14.92,
+      "sep_pct": -1.93,
+      "dist_ema20_pct": 9.5,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     }
@@ -368,6 +358,8 @@
   "today": {
     "new_signals": 0,
     "closed_today": 0,
-    "data_gaps": []
+    "data_gaps": [
+      "Bitcoin: BTC-USD: download failed ('NoneType' object is not subscriptable)"
+    ]
   }
 }
