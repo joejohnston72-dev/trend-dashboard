@@ -128,6 +128,19 @@ function closedTable(rows) {
   }).join('');
   return `<div class="list2"><table>${body}</table></div>`;
 }
+function leaderboardTable(rows, gate) {
+  if (!rows || !rows.length) return '';
+  const body = rows.map((r, i) => {
+    const sub = r.n
+      ? `${r.n} trades · ${fmtR(r.expectancy_R, 2)}/trade · ${Math.round(r.win_rate || 0)}% right${r.gate_met ? '' : ` · ${r.n}/${gate} sample`}`
+      : `no closed trades yet · ${r.open || 0} open`;
+    return `<tr>
+      <td class="nm">${i + 1}. ${esc(r.label)}${r.live ? ' <span class="pill long" style="margin-left:4px">live</span>' : ''}
+        <div class="why">${sub}</div></td>
+      <td class="r ${signClass(r.total_R)}">${r.n ? fmtR(r.total_R) : '—'}</td></tr>`;
+  }).join('');
+  return `<div class="list2"><table>${body}</table></div>`;
+}
 function sampleGate(n, target) {
   if (n >= target) return '';
   const pct = Math.round(Math.min(1, n / target) * 100);
@@ -223,6 +236,13 @@ function renderBook(root, slug) {
 
   const ct = closedTable(d.closed);
   if (ct) { root.append(el('<div class="sec"><span class="h">Recently closed</span></div>')); root.append(el(ct)); }
+
+  const lb = leaderboardTable(d.leaderboard, d.sample_gate?.target || GATE_TARGET);
+  if (lb) {
+    root.append(el('<div class="sec"><span class="h">Strategy leaderboard · forward paper</span></div>'));
+    root.append(el(lb));
+    root.append(el('<div class="note">Challenger strategies run silently on the same markets and costs as the live one, each in its own paper book. Ranked by total R since tracking began — descriptive only until a strategy clears the sample gate.</div>'));
+  }
 
   const note = slug === 'crypto'
     ? '<b>No money limits.</b> Every crypto signal is logged as a paper trade and shown per share as a % return (expected vs actual on close). Because crypto trades weekends, this book updates daily, just after midnight UTC.'
