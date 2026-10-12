@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-10-04T06:30:30+00:00",
+  "generated_at": "2026-10-12T09:36:48+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -41,7 +41,7 @@
   },
   "counts": {
     "open": 0,
-    "pending": 0,
+    "pending": 2,
     "closed": 11
   },
   "equity": [
@@ -159,7 +159,18 @@
     }
   ],
   "open": [],
-  "pending": [],
+  "pending": [
+    {
+      "market": "Avalanche",
+      "direction": "long",
+      "signal_date": "2026-10-11"
+    },
+    {
+      "market": "Bitcoin",
+      "direction": "long",
+      "signal_date": "2026-10-11"
+    }
+  ],
   "closed": [
     {
       "market": "XRP",
@@ -287,86 +298,86 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "price": 84497.2109375,
+      "price": 83679.46875,
       "trend": "up",
-      "sep_pct": 4.83,
-      "dist_ema20_pct": 2.43,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "sep_pct": 5.91,
+      "dist_ema20_pct": 0.51,
+      "status": "in_trade",
+      "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "Ethereum",
       "ticker": "ETH-USD",
-      "price": 2668.151123046875,
+      "price": 2534.69921875,
       "trend": "up",
-      "sep_pct": 7.19,
-      "dist_ema20_pct": 1.4,
+      "sep_pct": 7.69,
+      "dist_ema20_pct": -2.56,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "Solana",
       "ticker": "SOL-USD",
-      "price": 118.61514282226562,
+      "price": 111.24126434326172,
       "trend": "up",
-      "sep_pct": 8.34,
-      "dist_ema20_pct": 3.79,
+      "sep_pct": 9.8,
+      "dist_ema20_pct": -2.68,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "XRP",
       "ticker": "XRP-USD",
-      "price": 1.4849879741668701,
+      "price": 1.4092060327529907,
       "trend": "up",
-      "sep_pct": 0.06,
-      "dist_ema20_pct": 1.34,
-      "status": "flat",
-      "plain": "No clear trend \u00b7 staying out of the chop"
+      "sep_pct": 0.92,
+      "dist_ema20_pct": -2.72,
+      "status": "no_setup",
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "Litecoin",
       "ticker": "LTC-USD",
-      "price": 69.83025360107422,
+      "price": 64.59812927246094,
       "trend": "up",
-      "sep_pct": 3.89,
-      "dist_ema20_pct": 8.33,
+      "sep_pct": 6.75,
+      "dist_ema20_pct": -1.05,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "Cardano",
       "ticker": "ADA-USD",
-      "price": 0.24437500536441803,
+      "price": 0.2519710063934326,
       "trend": "down",
-      "sep_pct": -8.91,
-      "dist_ema20_pct": 3.05,
+      "sep_pct": -5.31,
+      "dist_ema20_pct": 2.53,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Dogecoin",
       "ticker": "DOGE-USD",
-      "price": 0.0929659977555275,
+      "price": 0.08672100305557251,
       "trend": "down",
-      "sep_pct": -6.38,
-      "dist_ema20_pct": 0.93,
+      "sep_pct": -5.64,
+      "dist_ema20_pct": -4.04,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
-      "price": 10.804361343383789,
-      "trend": "down",
-      "sep_pct": -0.95,
-      "dist_ema20_pct": 7.12,
-      "status": "no_setup",
-      "plain": "downtrend \u00b7 no setup right now"
+      "price": 10.958768844604492,
+      "trend": "up",
+      "sep_pct": 3.81,
+      "dist_ema20_pct": 4.24,
+      "status": "in_trade",
+      "plain": "Uptrend \u00b7 trade open, riding it"
     }
   ],
   "today": {
-    "new_signals": 0,
+    "new_signals": 2,
     "closed_today": 0,
     "data_gaps": []
   }
