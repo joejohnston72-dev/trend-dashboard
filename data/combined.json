@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:30:25+00:00",
+  "generated_at": "2026-10-14T23:00:17+00:00",
   "headline": {
     "n": 24,
     "total_R": -10.21,
@@ -172,7 +172,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-10-13T23:00:16+00:00",
+      "generated_at": "2026-10-14T23:00:17+00:00",
       "headline": {
         "n": 13,
         "total_R": 0.91,
@@ -200,8 +200,8 @@
         ]
       },
       "counts": {
-        "open": 0,
-        "pending": 1,
+        "open": 1,
+        "pending": 0,
         "closed": 13
       },
       "data_collection": true,
@@ -234,6 +234,19 @@
       "expected_return_pct": 5.07,
       "return_pct": -2.29,
       "book": "Crypto"
+    },
+    {
+      "market": "FTSE 100",
+      "direction": "long",
+      "entry": 10656.2002,
+      "stop": 10367.2998,
+      "target": 11234.001,
+      "entry_date": "2026-10-13",
+      "price": 10650.2998046875,
+      "unreal_R": -0.02,
+      "expected_return_pct": 5.42,
+      "return_pct": -0.06,
+      "book": "Markets"
     }
   ]
 }
