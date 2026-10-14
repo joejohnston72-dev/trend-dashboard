@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:00:16+00:00",
+  "generated_at": "2026-10-14T06:30:25+00:00",
   "headline": {
     "n": 24,
     "total_R": -10.21,
@@ -136,7 +136,7 @@
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-10-13T06:30:24+00:00",
+      "generated_at": "2026-10-14T06:30:25+00:00",
       "headline": {
         "n": 11,
         "total_R": -11.12,
@@ -162,8 +162,8 @@
         ]
       },
       "counts": {
-        "open": 0,
-        "pending": 2,
+        "open": 2,
+        "pending": 1,
         "closed": 11
       },
       "data_collection": true,
@@ -208,5 +208,32 @@
       "correlated_book": false
     }
   ],
-  "open": []
+  "open": [
+    {
+      "market": "Avalanche",
+      "direction": "long",
+      "entry": 10.9588,
+      "stop": 10.0228,
+      "target": 12.8307,
+      "entry_date": "2026-10-12",
+      "price": 10.141085624694824,
+      "unreal_R": -0.87,
+      "expected_return_pct": 17.08,
+      "return_pct": -7.46,
+      "book": "Crypto"
+    },
+    {
+      "market": "Bitcoin",
+      "direction": "long",
+      "entry": 83679.4688,
+      "stop": 81557.7031,
+      "target": 87923.0001,
+      "entry_date": "2026-10-12",
+      "price": 81762.5625,
+      "unreal_R": -0.9,
+      "expected_return_pct": 5.07,
+      "return_pct": -2.29,
+      "book": "Crypto"
+    }
+  ]
 }
