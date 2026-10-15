@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-14T23:00:17+00:00",
+  "generated_at": "2026-10-15T06:30:17+00:00",
   "headline": {
-    "n": 24,
-    "total_R": -10.21,
-    "win_rate": 29.2,
+    "n": 26,
+    "total_R": -12.24,
+    "win_rate": 26.9,
     "avg_win_R": 1.0,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.425,
-    "profit_factor": 0.40561313613601957,
-    "max_drawdown_R": -14.15
+    "expectancy_R": -0.471,
+    "profit_factor": 0.3626236335242061,
+    "max_drawdown_R": -15.57
   },
   "equity": [
     {
@@ -130,23 +130,33 @@
       "exit_at": "2026-10-12",
       "R": 0.616,
       "cum_R": -10.208
+    },
+    {
+      "exit_at": "2026-10-13",
+      "R": -1.03,
+      "cum_R": -11.238
+    },
+    {
+      "exit_at": "2026-10-13",
+      "R": -1.006,
+      "cum_R": -12.244
     }
   ],
   "books": [
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-10-14T06:30:25+00:00",
+      "generated_at": "2026-10-15T06:30:17+00:00",
       "headline": {
-        "n": 11,
-        "total_R": -11.12,
-        "expectancy_R": -1.011,
+        "n": 13,
+        "total_R": -13.16,
+        "expectancy_R": -1.012,
         "win_rate": 0.0,
         "avg_win_R": 0.0,
         "avg_loss_R": -1.01,
         "profit_factor": 0.0,
-        "max_drawdown_R": -11.12,
-        "max_consecutive_losses": 11,
+        "max_drawdown_R": -13.16,
+        "max_consecutive_losses": 13,
         "equity_curve_R": [
           -1.02,
           -2.02,
@@ -158,13 +168,15 @@
           -8.1,
           -9.11,
           -10.11,
-          -11.12
+          -11.12,
+          -12.15,
+          -13.16
         ]
       },
       "counts": {
-        "open": 2,
-        "pending": 1,
-        "closed": 11
+        "open": 1,
+        "pending": 0,
+        "closed": 13
       },
       "data_collection": true,
       "correlated_book": true
@@ -210,29 +222,16 @@
   ],
   "open": [
     {
-      "market": "Avalanche",
-      "direction": "long",
-      "entry": 10.9588,
-      "stop": 10.0228,
-      "target": 12.8307,
-      "entry_date": "2026-10-12",
-      "price": 10.141085624694824,
-      "unreal_R": -0.87,
-      "expected_return_pct": 17.08,
-      "return_pct": -7.46,
-      "book": "Crypto"
-    },
-    {
-      "market": "Bitcoin",
-      "direction": "long",
-      "entry": 83679.4688,
-      "stop": 81557.7031,
-      "target": 87923.0001,
-      "entry_date": "2026-10-12",
-      "price": 81762.5625,
-      "unreal_R": -0.9,
-      "expected_return_pct": 5.07,
-      "return_pct": -2.29,
+      "market": "Cardano",
+      "direction": "short",
+      "entry": 0.2331,
+      "stop": 0.2589,
+      "target": 0.1816,
+      "entry_date": "2026-10-13",
+      "price": 0.2355860024690628,
+      "unreal_R": -0.1,
+      "expected_return_pct": 22.09,
+      "return_pct": -1.07,
       "book": "Crypto"
     },
     {
