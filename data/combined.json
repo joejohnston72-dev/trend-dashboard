@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T23:00:14+00:00",
+  "generated_at": "2026-10-20T22:22:44+00:00",
   "headline": {
     "n": 26,
     "total_R": -12.24,
@@ -184,7 +184,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-10-17T23:00:14+00:00",
+      "generated_at": "2026-10-20T22:22:44+00:00",
       "headline": {
         "n": 13,
         "total_R": 0.91,
@@ -241,10 +241,10 @@
       "stop": 10367.2998,
       "target": 11234.001,
       "entry_date": "2026-10-13",
-      "price": null,
-      "unreal_R": null,
+      "price": 10733.0,
+      "unreal_R": 0.27,
       "expected_return_pct": 5.42,
-      "return_pct": null,
+      "return_pct": 0.72,
       "book": "Markets"
     }
   ]
