@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T06:30:23+00:00",
+  "generated_at": "2026-10-22T10:25:46+00:00",
   "headline": {
     "n": 26,
     "total_R": -12.24,
@@ -184,7 +184,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-10-20T22:22:44+00:00",
+      "generated_at": "2026-10-22T10:25:46+00:00",
       "headline": {
         "n": 13,
         "total_R": 0.91,
@@ -213,7 +213,7 @@
       },
       "counts": {
         "open": 1,
-        "pending": 0,
+        "pending": 2,
         "closed": 13
       },
       "data_collection": true,
@@ -241,10 +241,10 @@
       "stop": 10367.2998,
       "target": 11234.001,
       "entry_date": "2026-10-13",
-      "price": 10733.0,
-      "unreal_R": 0.27,
+      "price": 10752.900390625,
+      "unreal_R": 0.33,
       "expected_return_pct": 5.42,
-      "return_pct": 0.72,
+      "return_pct": 0.91,
       "book": "Markets"
     }
   ]
