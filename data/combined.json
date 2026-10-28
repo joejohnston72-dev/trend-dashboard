@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T18:12:20+00:00",
+  "generated_at": "2026-10-28T00:00:30+00:00",
   "headline": {
-    "n": 26,
-    "total_R": -12.24,
-    "win_rate": 26.9,
+    "n": 27,
+    "total_R": -13.25,
+    "win_rate": 25.9,
     "avg_win_R": 1.0,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.471,
-    "profit_factor": 0.3626236335242061,
-    "max_drawdown_R": -15.57
+    "expectancy_R": -0.491,
+    "profit_factor": 0.34462969376144065,
+    "max_drawdown_R": -16.57
   },
   "equity": [
     {
@@ -140,6 +140,11 @@
       "exit_at": "2026-10-13",
       "R": -1.006,
       "cum_R": -12.244
+    },
+    {
+      "exit_at": "2026-10-23",
+      "R": -1.003,
+      "cum_R": -13.247
     }
   ],
   "books": [
@@ -184,16 +189,16 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-10-27T18:12:17+00:00",
+      "generated_at": "2026-10-28T00:00:30+00:00",
       "headline": {
-        "n": 13,
-        "total_R": 0.91,
-        "expectancy_R": 0.07,
-        "win_rate": 53.8,
+        "n": 14,
+        "total_R": -0.09,
+        "expectancy_R": -0.006,
+        "win_rate": 50.0,
         "avg_win_R": 1.0,
         "avg_loss_R": -1.01,
-        "profit_factor": 1.15,
-        "max_drawdown_R": -3.03,
+        "profit_factor": 0.99,
+        "max_drawdown_R": -3.41,
         "max_consecutive_losses": 3,
         "equity_curve_R": [
           0.08,
@@ -208,13 +213,14 @@
           2.31,
           1.3,
           0.3,
-          0.91
+          0.91,
+          -0.09
         ]
       },
       "counts": {
         "open": 1,
-        "pending": 2,
-        "closed": 13
+        "pending": 1,
+        "closed": 14
       },
       "data_collection": true,
       "correlated_book": false
@@ -241,10 +247,10 @@
       "stop": 10367.2998,
       "target": 11234.001,
       "entry_date": "2026-10-13",
-      "price": null,
-      "unreal_R": null,
+      "price": 10686.5,
+      "unreal_R": 0.1,
       "expected_return_pct": 5.42,
-      "return_pct": null,
+      "return_pct": 0.28,
       "book": "Markets"
     }
   ]
