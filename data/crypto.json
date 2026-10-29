@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-10-27T18:12:20+00:00",
+  "generated_at": "2026-10-29T00:00:27+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -340,19 +340,65 @@
       "vs_expected_pct": -15.89
     }
   ],
-  "markets": [],
+  "markets": [
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "price": 80805.078125,
+      "trend": "up",
+      "sep_pct": 5.6,
+      "dist_ema20_pct": -1.17,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Ethereum",
+      "ticker": "ETH-USD",
+      "price": 2347.72998046875,
+      "trend": "up",
+      "sep_pct": 5.16,
+      "dist_ema20_pct": -3.49,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Solana",
+      "ticker": "SOL-USD",
+      "price": 101.25499725341797,
+      "trend": "up",
+      "sep_pct": 6.93,
+      "dist_ema20_pct": -4.19,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Dogecoin",
+      "ticker": "DOGE-USD",
+      "price": 0.07969799637794495,
+      "trend": "down",
+      "sep_pct": -8.1,
+      "dist_ema20_pct": -2.09,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Avalanche",
+      "ticker": "AVAX-USD",
+      "price": 8.990285873413086,
+      "trend": "up",
+      "sep_pct": 1.76,
+      "dist_ema20_pct": -5.98,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    }
+  ],
   "today": {
     "new_signals": 0,
     "closed_today": 0,
     "data_gaps": [
-      "Bitcoin: BTC-USD: download failed ('NoneType' object is not subscriptable)",
-      "Ethereum: ETH-USD: download failed ('NoneType' object is not subscriptable)",
-      "Solana: SOL-USD: download failed ('NoneType' object is not subscriptable)",
       "XRP: XRP-USD: download failed ('NoneType' object is not subscriptable)",
       "Litecoin: LTC-USD: download failed ('NoneType' object is not subscriptable)",
-      "Cardano: ADA-USD: download failed ('NoneType' object is not subscriptable)",
-      "Dogecoin: DOGE-USD: download failed ('NoneType' object is not subscriptable)",
-      "Avalanche: AVAX-USD: download failed ('NoneType' object is not subscriptable)"
+      "Cardano: ADA-USD: download failed ('NoneType' object is not subscriptable)"
     ]
   }
 }
