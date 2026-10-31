@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-29T00:00:27+00:00",
+  "generated_at": "2026-10-31T07:25:11+00:00",
   "headline": {
-    "n": 27,
-    "total_R": -13.25,
-    "win_rate": 25.9,
+    "n": 28,
+    "total_R": -14.26,
+    "win_rate": 25.0,
     "avg_win_R": 1.0,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.491,
-    "profit_factor": 0.34462969376144065,
-    "max_drawdown_R": -16.57
+    "expectancy_R": -0.509,
+    "profit_factor": 0.328151498021481,
+    "max_drawdown_R": -17.59
   },
   "equity": [
     {
@@ -142,16 +142,21 @@
       "cum_R": -12.244
     },
     {
+      "exit_at": "2026-10-22",
+      "R": -1.015,
+      "cum_R": -13.259
+    },
+    {
       "exit_at": "2026-10-23",
       "R": -1.003,
-      "cum_R": -13.247
+      "cum_R": -14.262
     }
   ],
   "books": [
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-10-29T00:00:27+00:00",
+      "generated_at": "2026-10-31T07:25:11+00:00",
       "headline": {
         "n": 13,
         "total_R": -13.16,
@@ -189,16 +194,16 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-10-28T00:00:30+00:00",
+      "generated_at": "2026-10-31T07:25:11+00:00",
       "headline": {
-        "n": 14,
-        "total_R": -0.09,
-        "expectancy_R": -0.006,
-        "win_rate": 50.0,
+        "n": 15,
+        "total_R": -1.1,
+        "expectancy_R": -0.074,
+        "win_rate": 46.7,
         "avg_win_R": 1.0,
         "avg_loss_R": -1.01,
-        "profit_factor": 0.99,
-        "max_drawdown_R": -3.41,
+        "profit_factor": 0.86,
+        "max_drawdown_R": -4.43,
         "max_consecutive_losses": 3,
         "equity_curve_R": [
           0.08,
@@ -214,13 +219,14 @@
           1.3,
           0.3,
           0.91,
-          -0.09
+          -0.1,
+          -1.1
         ]
       },
       "counts": {
         "open": 1,
-        "pending": 1,
-        "closed": 14
+        "pending": 0,
+        "closed": 15
       },
       "data_collection": true,
       "correlated_book": false
@@ -234,10 +240,10 @@
       "stop": 0.2589,
       "target": 0.1816,
       "entry_date": "2026-10-13",
-      "price": null,
-      "unreal_R": null,
+      "price": 0.19510500133037567,
+      "unreal_R": 1.47,
       "expected_return_pct": 22.09,
-      "return_pct": null,
+      "return_pct": 16.3,
       "book": "Crypto"
     },
     {
@@ -247,10 +253,10 @@
       "stop": 10367.2998,
       "target": 11234.001,
       "entry_date": "2026-10-13",
-      "price": 10686.5,
-      "unreal_R": 0.1,
+      "price": 10729.7998046875,
+      "unreal_R": 0.25,
       "expected_return_pct": 5.42,
-      "return_pct": 0.28,
+      "return_pct": 0.69,
       "book": "Markets"
     }
   ]
