@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:30:25+00:00",
+  "generated_at": "2026-11-03T19:51:04+00:00",
   "headline": {
     "n": 28,
     "total_R": -14.26,
@@ -156,7 +156,7 @@
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-11-02T07:30:25+00:00",
+      "generated_at": "2026-11-03T19:51:04+00:00",
       "headline": {
         "n": 13,
         "total_R": -13.16,
@@ -194,7 +194,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-10-31T07:25:11+00:00",
+      "generated_at": "2026-11-03T00:00:24+00:00",
       "headline": {
         "n": 15,
         "total_R": -1.1,
@@ -240,10 +240,10 @@
       "stop": 0.2589,
       "target": 0.1816,
       "entry_date": "2026-10-13",
-      "price": 0.1928510069847107,
-      "unreal_R": 1.56,
+      "price": null,
+      "unreal_R": null,
       "expected_return_pct": 22.09,
-      "return_pct": 17.27,
+      "return_pct": null,
       "book": "Crypto"
     },
     {
@@ -253,10 +253,10 @@
       "stop": 10367.2998,
       "target": 11234.001,
       "entry_date": "2026-10-13",
-      "price": 10729.7998046875,
-      "unreal_R": 0.25,
+      "price": null,
+      "unreal_R": null,
       "expected_return_pct": 5.42,
-      "return_pct": 0.69,
+      "return_pct": null,
       "book": "Markets"
     }
   ]

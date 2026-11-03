@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-10-31T07:25:11+00:00",
+  "generated_at": "2026-11-03T00:00:24+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -216,10 +216,10 @@
       "stop": 10367.2998,
       "target": 11234.001,
       "entry_date": "2026-10-13",
-      "price": 10729.7998046875,
-      "unreal_R": 0.25,
+      "price": null,
+      "unreal_R": null,
       "expected_return_pct": 5.42,
-      "return_pct": 0.69
+      "return_pct": null
     }
   ],
   "pending": [],
@@ -390,101 +390,20 @@
       "vs_expected_pct": -6.62
     }
   ],
-  "markets": [
-    {
-      "name": "S&P 500",
-      "ticker": "^GSPC",
-      "price": 7580.06982421875,
-      "trend": "up",
-      "sep_pct": 4.57,
-      "dist_ema20_pct": -1.61,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
-    },
-    {
-      "name": "DAX 40",
-      "ticker": "^GDAXI",
-      "price": 25818.2109375,
-      "trend": "up",
-      "sep_pct": 2.07,
-      "dist_ema20_pct": 1.21,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
-    },
-    {
-      "name": "FTSE 100",
-      "ticker": "^FTSE",
-      "price": 10729.7998046875,
-      "trend": "up",
-      "sep_pct": 2.47,
-      "dist_ema20_pct": 0.27,
-      "status": "in_trade",
-      "plain": "Uptrend \u00b7 trade open, riding it"
-    },
-    {
-      "name": "Gold",
-      "ticker": "GC=F",
-      "price": 3898.89990234375,
-      "trend": "down",
-      "sep_pct": -2.14,
-      "dist_ema20_pct": -5.38,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
-    },
-    {
-      "name": "Silver",
-      "ticker": "SI=F",
-      "price": 49.09700012207031,
-      "trend": "down",
-      "sep_pct": -6.2,
-      "dist_ema20_pct": -14.35,
-      "status": "no_setup",
-      "plain": "Strong downtrend \u00b7 no setup right now"
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EURUSD=X",
-      "price": 1.1182805299758911,
-      "trend": "down",
-      "sep_pct": -1.43,
-      "dist_ema20_pct": -0.41,
-      "status": "watch",
-      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
-    },
-    {
-      "name": "GBP/USD",
-      "ticker": "GBPUSD=X",
-      "price": 1.3378641605377197,
-      "trend": "down",
-      "sep_pct": -0.32,
-      "dist_ema20_pct": 0.38,
-      "status": "watch",
-      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
-    },
-    {
-      "name": "USD/JPY",
-      "ticker": "JPY=X",
-      "price": 157.8040008544922,
-      "trend": "up",
-      "sep_pct": 0.22,
-      "dist_ema20_pct": 0.04,
-      "status": "watch",
-      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
-    },
-    {
-      "name": "AUD/USD",
-      "ticker": "AUDUSD=X",
-      "price": 0.7027001976966858,
-      "trend": "up",
-      "sep_pct": 0.71,
-      "dist_ema20_pct": 0.19,
-      "status": "watch",
-      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
-    }
-  ],
+  "markets": [],
   "today": {
     "new_signals": 0,
-    "closed_today": 1,
-    "data_gaps": []
+    "closed_today": 0,
+    "data_gaps": [
+      "S&P 500: ^GSPC: download failed ('NoneType' object is not subscriptable)",
+      "DAX 40: ^GDAXI: download failed ('NoneType' object is not subscriptable)",
+      "FTSE 100: ^FTSE: download failed ('NoneType' object is not subscriptable)",
+      "Gold: GC=F: download failed ('NoneType' object is not subscriptable)",
+      "Silver: SI=F: download failed ('NoneType' object is not subscriptable)",
+      "EUR/USD: EURUSD=X: download failed ('NoneType' object is not subscriptable)",
+      "GBP/USD: GBPUSD=X: download failed ('NoneType' object is not subscriptable)",
+      "USD/JPY: JPY=X: download failed ('NoneType' object is not subscriptable)",
+      "AUD/USD: AUDUSD=X: download failed ('NoneType' object is not subscriptable)"
+    ]
   }
 }
