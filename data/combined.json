@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T19:51:04+00:00",
+  "generated_at": "2026-11-03T22:57:49+00:00",
   "headline": {
-    "n": 28,
-    "total_R": -14.26,
-    "win_rate": 25.0,
-    "avg_win_R": 1.0,
+    "n": 29,
+    "total_R": -13.9,
+    "win_rate": 27.6,
+    "avg_win_R": 0.92,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.509,
-    "profit_factor": 0.328151498021481,
+    "expectancy_R": -0.479,
+    "profit_factor": 0.34511023176936123,
     "max_drawdown_R": -17.59
   },
   "equity": [
@@ -150,6 +150,11 @@
       "exit_at": "2026-10-23",
       "R": -1.003,
       "cum_R": -14.262
+    },
+    {
+      "exit_at": "2026-11-02",
+      "R": 0.36,
+      "cum_R": -13.902
     }
   ],
   "books": [
@@ -194,15 +199,15 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-11-03T00:00:24+00:00",
+      "generated_at": "2026-11-03T22:57:49+00:00",
       "headline": {
-        "n": 15,
-        "total_R": -1.1,
-        "expectancy_R": -0.074,
-        "win_rate": 46.7,
-        "avg_win_R": 1.0,
+        "n": 16,
+        "total_R": -0.74,
+        "expectancy_R": -0.047,
+        "win_rate": 50.0,
+        "avg_win_R": 0.92,
         "avg_loss_R": -1.01,
-        "profit_factor": 0.86,
+        "profit_factor": 0.91,
         "max_drawdown_R": -4.43,
         "max_consecutive_losses": 3,
         "equity_curve_R": [
@@ -220,13 +225,14 @@
           0.3,
           0.91,
           -0.1,
-          -1.1
+          -1.1,
+          -0.74
         ]
       },
       "counts": {
-        "open": 1,
+        "open": 0,
         "pending": 0,
-        "closed": 15
+        "closed": 16
       },
       "data_collection": true,
       "correlated_book": false
@@ -245,19 +251,6 @@
       "expected_return_pct": 22.09,
       "return_pct": null,
       "book": "Crypto"
-    },
-    {
-      "market": "FTSE 100",
-      "direction": "long",
-      "entry": 10656.2002,
-      "stop": 10367.2998,
-      "target": 11234.001,
-      "entry_date": "2026-10-13",
-      "price": null,
-      "unreal_R": null,
-      "expected_return_pct": 5.42,
-      "return_pct": null,
-      "book": "Markets"
     }
   ]
 }

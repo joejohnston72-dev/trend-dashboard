@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-11-03T00:00:24+00:00",
+  "generated_at": "2026-11-03T22:57:49+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -16,13 +16,13 @@
   "data_collection": true,
   "correlated_book": false,
   "headline": {
-    "n": 15,
-    "total_R": -1.1,
-    "expectancy_R": -0.074,
-    "win_rate": 46.7,
-    "avg_win_R": 1.0,
+    "n": 16,
+    "total_R": -0.74,
+    "expectancy_R": -0.047,
+    "win_rate": 50.0,
+    "avg_win_R": 0.92,
     "avg_loss_R": -1.01,
-    "profit_factor": 0.86,
+    "profit_factor": 0.91,
     "max_drawdown_R": -4.43,
     "max_consecutive_losses": 3,
     "equity_curve_R": [
@@ -40,19 +40,20 @@
       0.3,
       0.91,
       -0.1,
-      -1.1
+      -1.1,
+      -0.74
     ]
   },
   "sample_gate": {
-    "n": 15,
+    "n": 16,
     "target": 30,
     "met": false,
-    "pct": 50
+    "pct": 53
   },
   "counts": {
-    "open": 1,
+    "open": 0,
     "pending": 0,
-    "closed": 15
+    "closed": 16
   },
   "equity": [
     {
@@ -144,6 +145,12 @@
       "market": "DAX 40",
       "R": -1.003,
       "cum_R": -1.104
+    },
+    {
+      "exit_at": "2026-11-02",
+      "market": "FTSE 100",
+      "R": 0.36,
+      "cum_R": -0.744
     }
   ],
   "closed_R": [
@@ -206,24 +213,26 @@
     {
       "exit_at": "2026-10-23",
       "R": -1.003
+    },
+    {
+      "exit_at": "2026-11-02",
+      "R": 0.36
     }
   ],
-  "open": [
+  "open": [],
+  "pending": [],
+  "closed": [
     {
       "market": "FTSE 100",
       "direction": "long",
-      "entry": 10656.2002,
-      "stop": 10367.2998,
-      "target": 11234.001,
-      "entry_date": "2026-10-13",
-      "price": null,
-      "unreal_R": null,
+      "outcome_R": 0.36,
+      "status": "EXPIRED",
+      "reason": "reached its time limit",
+      "exit_at": "2026-11-02",
+      "actual_return_pct": 0.99,
       "expected_return_pct": 5.42,
-      "return_pct": null
-    }
-  ],
-  "pending": [],
-  "closed": [
+      "vs_expected_pct": -4.43
+    },
     {
       "market": "DAX 40",
       "direction": "long",
@@ -390,20 +399,101 @@
       "vs_expected_pct": -6.62
     }
   ],
-  "markets": [],
+  "markets": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7568.919921875,
+      "trend": "up",
+      "sep_pct": 4.36,
+      "dist_ema20_pct": -1.41,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 25864.619140625,
+      "trend": "up",
+      "sep_pct": 2.15,
+      "dist_ema20_pct": 1.1,
+      "status": "no_setup",
+      "plain": "Strong uptrend \u00b7 no setup right now"
+    },
+    {
+      "name": "FTSE 100",
+      "ticker": "^FTSE",
+      "price": 10638.4296875,
+      "trend": "up",
+      "sep_pct": 2.53,
+      "dist_ema20_pct": -0.58,
+      "status": "watch",
+      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+    },
+    {
+      "name": "Gold",
+      "ticker": "GC=F",
+      "price": 3940.199951171875,
+      "trend": "down",
+      "sep_pct": -2.43,
+      "dist_ema20_pct": -3.56,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
+      "name": "Silver",
+      "ticker": "SI=F",
+      "price": 49.810001373291016,
+      "trend": "down",
+      "sep_pct": -6.89,
+      "dist_ema20_pct": -10.56,
+      "status": "no_setup",
+      "plain": "Strong downtrend \u00b7 no setup right now"
+    },
+    {
+      "name": "EUR/USD",
+      "ticker": "EURUSD=X",
+      "price": 1.1191942691802979,
+      "trend": "down",
+      "sep_pct": -1.49,
+      "dist_ema20_pct": -0.24,
+      "status": "watch",
+      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBPUSD=X",
+      "price": 1.3412736654281616,
+      "trend": "down",
+      "sep_pct": -0.31,
+      "dist_ema20_pct": 0.54,
+      "status": "watch",
+      "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
+    },
+    {
+      "name": "USD/JPY",
+      "ticker": "JPY=X",
+      "price": 158.6280059814453,
+      "trend": "up",
+      "sep_pct": 0.24,
+      "dist_ema20_pct": 0.51,
+      "status": "watch",
+      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+    },
+    {
+      "name": "AUD/USD",
+      "ticker": "AUDUSD=X",
+      "price": 0.6966699361801147,
+      "trend": "up",
+      "sep_pct": 0.65,
+      "dist_ema20_pct": -0.63,
+      "status": "watch",
+      "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
+    }
+  ],
   "today": {
     "new_signals": 0,
-    "closed_today": 0,
-    "data_gaps": [
-      "S&P 500: ^GSPC: download failed ('NoneType' object is not subscriptable)",
-      "DAX 40: ^GDAXI: download failed ('NoneType' object is not subscriptable)",
-      "FTSE 100: ^FTSE: download failed ('NoneType' object is not subscriptable)",
-      "Gold: GC=F: download failed ('NoneType' object is not subscriptable)",
-      "Silver: SI=F: download failed ('NoneType' object is not subscriptable)",
-      "EUR/USD: EURUSD=X: download failed ('NoneType' object is not subscriptable)",
-      "GBP/USD: GBPUSD=X: download failed ('NoneType' object is not subscriptable)",
-      "USD/JPY: JPY=X: download failed ('NoneType' object is not subscriptable)",
-      "AUD/USD: AUDUSD=X: download failed ('NoneType' object is not subscriptable)"
-    ]
+    "closed_today": 1,
+    "data_gaps": []
   }
 }
