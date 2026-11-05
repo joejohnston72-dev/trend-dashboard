@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:30:30+00:00",
+  "generated_at": "2026-11-05T07:30:24+00:00",
   "headline": {
     "n": 29,
     "total_R": -13.9,
@@ -199,7 +199,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-11-03T22:57:49+00:00",
+      "generated_at": "2026-11-05T07:30:24+00:00",
       "headline": {
         "n": 16,
         "total_R": -0.74,
@@ -231,7 +231,7 @@
       },
       "counts": {
         "open": 0,
-        "pending": 0,
+        "pending": 2,
         "closed": 16
       },
       "data_collection": true,
