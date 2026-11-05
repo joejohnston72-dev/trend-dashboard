@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:30:24+00:00",
+  "generated_at": "2026-11-05T07:30:27+00:00",
   "headline": {
     "n": 29,
     "total_R": -13.9,
@@ -161,7 +161,7 @@
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-11-04T07:30:30+00:00",
+      "generated_at": "2026-11-05T07:30:27+00:00",
       "headline": {
         "n": 13,
         "total_R": -13.16,
@@ -190,7 +190,7 @@
       },
       "counts": {
         "open": 1,
-        "pending": 0,
+        "pending": 2,
         "closed": 13
       },
       "data_collection": true,
@@ -246,10 +246,10 @@
       "stop": 0.2589,
       "target": 0.1816,
       "entry_date": "2026-10-13",
-      "price": 0.19033999741077423,
-      "unreal_R": 1.66,
+      "price": 0.19745999574661255,
+      "unreal_R": 1.38,
       "expected_return_pct": 22.09,
-      "return_pct": 18.34,
+      "return_pct": 15.29,
       "book": "Crypto"
     }
   ]
