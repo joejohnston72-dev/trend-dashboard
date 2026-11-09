@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-11-08T00:00:32+00:00",
   "headline": {
-    "n": 30,
-    "total_R": -14.91,
-    "win_rate": 26.7,
-    "avg_win_R": 0.92,
+    "n": 31,
+    "total_R": -12.92,
+    "win_rate": 29.0,
+    "avg_win_R": 1.04,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.497,
-    "profit_factor": 0.3295101875590339,
-    "max_drawdown_R": -18.23
+    "expectancy_R": -0.417,
+    "profit_factor": 0.41901677686322136,
+    "max_drawdown_R": -17.59
   },
   "equity": [
     {
@@ -157,24 +157,29 @@
       "cum_R": -13.902
     },
     {
+      "exit_at": "2026-11-05",
+      "R": 1.99,
+      "cum_R": -11.912
+    },
+    {
       "exit_at": "2026-11-06",
       "R": -1.005,
-      "cum_R": -14.907
+      "cum_R": -12.917
     }
   ],
   "books": [
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-11-05T07:30:27+00:00",
+      "generated_at": "2026-11-08T00:00:32+00:00",
       "headline": {
-        "n": 13,
-        "total_R": -13.16,
-        "expectancy_R": -1.012,
-        "win_rate": 0.0,
-        "avg_win_R": 0.0,
+        "n": 14,
+        "total_R": -11.17,
+        "expectancy_R": -0.798,
+        "win_rate": 7.1,
+        "avg_win_R": 1.99,
         "avg_loss_R": -1.01,
-        "profit_factor": 0.0,
+        "profit_factor": 0.15,
         "max_drawdown_R": -13.16,
         "max_consecutive_losses": 13,
         "equity_curve_R": [
@@ -190,13 +195,14 @@
           -10.11,
           -11.12,
           -12.15,
-          -13.16
+          -13.16,
+          -11.17
         ]
       },
       "counts": {
-        "open": 1,
+        "open": 0,
         "pending": 2,
-        "closed": 13
+        "closed": 14
       },
       "data_collection": true,
       "correlated_book": true
@@ -244,19 +250,5 @@
       "correlated_book": false
     }
   ],
-  "open": [
-    {
-      "market": "Cardano",
-      "direction": "short",
-      "entry": 0.2331,
-      "stop": 0.2589,
-      "target": 0.1816,
-      "entry_date": "2026-10-13",
-      "price": 0.19745999574661255,
-      "unreal_R": 1.38,
-      "expected_return_pct": 22.09,
-      "return_pct": 15.29,
-      "book": "Crypto"
-    }
-  ]
+  "open": []
 }
