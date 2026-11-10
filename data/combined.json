@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-08T00:00:32+00:00",
+  "generated_at": "2026-11-10T00:00:19+00:00",
   "headline": {
-    "n": 31,
-    "total_R": -12.92,
-    "win_rate": 29.0,
+    "n": 33,
+    "total_R": -14.96,
+    "win_rate": 27.3,
     "avg_win_R": 1.04,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.417,
-    "profit_factor": 0.41901677686322136,
-    "max_drawdown_R": -17.59
+    "expectancy_R": -0.453,
+    "profit_factor": 0.3836902800658979,
+    "max_drawdown_R": -18.29
   },
   "equity": [
     {
@@ -162,9 +162,19 @@
       "cum_R": -11.912
     },
     {
+      "exit_at": "2026-11-05",
+      "R": -1.003,
+      "cum_R": -12.915
+    },
+    {
       "exit_at": "2026-11-06",
       "R": -1.005,
-      "cum_R": -12.917
+      "cum_R": -13.92
+    },
+    {
+      "exit_at": "2026-11-09",
+      "R": -1.044,
+      "cum_R": -14.964
     }
   ],
   "books": [
@@ -210,16 +220,16 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-11-08T00:00:32+00:00",
+      "generated_at": "2026-11-10T00:00:19+00:00",
       "headline": {
-        "n": 17,
-        "total_R": -1.75,
-        "expectancy_R": -0.103,
-        "win_rate": 47.1,
+        "n": 19,
+        "total_R": -3.8,
+        "expectancy_R": -0.2,
+        "win_rate": 42.1,
         "avg_win_R": 0.92,
         "avg_loss_R": -1.01,
-        "profit_factor": 0.81,
-        "max_drawdown_R": -5.07,
+        "profit_factor": 0.66,
+        "max_drawdown_R": -7.12,
         "max_consecutive_losses": 3,
         "equity_curve_R": [
           0.08,
@@ -238,13 +248,15 @@
           -0.1,
           -1.1,
           -0.74,
-          -1.75
+          -1.75,
+          -2.75,
+          -3.8
         ]
       },
       "counts": {
         "open": 0,
-        "pending": 2,
-        "closed": 17
+        "pending": 1,
+        "closed": 19
       },
       "data_collection": true,
       "correlated_book": false
