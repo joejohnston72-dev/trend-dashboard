@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T00:00:19+00:00",
+  "generated_at": "2026-11-10T22:26:54+00:00",
   "headline": {
     "n": 33,
     "total_R": -14.96,
@@ -220,7 +220,7 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-11-10T00:00:19+00:00",
+      "generated_at": "2026-11-10T22:26:54+00:00",
       "headline": {
         "n": 19,
         "total_R": -3.8,
@@ -254,7 +254,7 @@
         ]
       },
       "counts": {
-        "open": 0,
+        "open": 1,
         "pending": 1,
         "closed": 19
       },
@@ -262,5 +262,19 @@
       "correlated_book": false
     }
   ],
-  "open": []
+  "open": [
+    {
+      "market": "EUR/USD",
+      "direction": "short",
+      "entry": 1.1225,
+      "stop": 1.1271,
+      "target": 1.1132,
+      "entry_date": "2026-11-10",
+      "price": 1.1169440746307373,
+      "unreal_R": 1.21,
+      "expected_return_pct": 0.83,
+      "return_pct": 0.49,
+      "book": "Markets"
+    }
+  ]
 }
