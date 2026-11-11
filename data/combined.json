@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10T22:26:54+00:00",
+  "generated_at": "2026-11-11T06:24:59+00:00",
   "headline": {
-    "n": 33,
-    "total_R": -14.96,
-    "win_rate": 27.3,
+    "n": 35,
+    "total_R": -16.99,
+    "win_rate": 25.7,
     "avg_win_R": 1.04,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.453,
-    "profit_factor": 0.3836902800658979,
-    "max_drawdown_R": -18.29
+    "expectancy_R": -0.485,
+    "profit_factor": 0.35418013154393035,
+    "max_drawdown_R": -20.31
   },
   "equity": [
     {
@@ -163,34 +163,44 @@
     },
     {
       "exit_at": "2026-11-05",
+      "R": -1.013,
+      "cum_R": -12.925
+    },
+    {
+      "exit_at": "2026-11-05",
+      "R": -1.01,
+      "cum_R": -13.935
+    },
+    {
+      "exit_at": "2026-11-05",
       "R": -1.003,
-      "cum_R": -12.915
+      "cum_R": -14.938
     },
     {
       "exit_at": "2026-11-06",
       "R": -1.005,
-      "cum_R": -13.92
+      "cum_R": -15.943
     },
     {
       "exit_at": "2026-11-09",
       "R": -1.044,
-      "cum_R": -14.964
+      "cum_R": -16.987
     }
   ],
   "books": [
     {
       "book": "Crypto",
       "slug": "crypto",
-      "generated_at": "2026-11-09T22:01:19+00:00",
+      "generated_at": "2026-11-11T06:24:59+00:00",
       "headline": {
-        "n": 14,
-        "total_R": -11.17,
-        "expectancy_R": -0.798,
-        "win_rate": 7.1,
+        "n": 16,
+        "total_R": -13.19,
+        "expectancy_R": -0.824,
+        "win_rate": 6.2,
         "avg_win_R": 1.99,
         "avg_loss_R": -1.01,
-        "profit_factor": 0.15,
-        "max_drawdown_R": -13.16,
+        "profit_factor": 0.13,
+        "max_drawdown_R": -13.19,
         "max_consecutive_losses": 13,
         "equity_curve_R": [
           -1.02,
@@ -206,13 +216,15 @@
           -11.12,
           -12.15,
           -13.16,
-          -11.17
+          -11.17,
+          -12.18,
+          -13.19
         ]
       },
       "counts": {
         "open": 0,
-        "pending": 2,
-        "closed": 14
+        "pending": 0,
+        "closed": 16
       },
       "data_collection": true,
       "correlated_book": true
