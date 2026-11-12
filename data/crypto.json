@@ -1,7 +1,7 @@
 {
   "book": "Crypto",
   "slug": "crypto",
-  "generated_at": "2026-11-11T06:24:59+00:00",
+  "generated_at": "2026-11-12T07:30:23+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -397,87 +397,87 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "price": 75223.1484375,
+      "price": 73964.46875,
       "trend": "up",
-      "sep_pct": 3.2,
-      "dist_ema20_pct": -3.8,
+      "sep_pct": 2.77,
+      "dist_ema20_pct": -4.53,
       "status": "no_setup",
       "plain": "Strong uptrend \u00b7 no setup right now"
     },
     {
       "name": "Ethereum",
       "ticker": "ETH-USD",
-      "price": 2131.49853515625,
+      "price": 2055.876220703125,
       "trend": "up",
-      "sep_pct": 1.59,
-      "dist_ema20_pct": -7.36,
+      "sep_pct": 0.91,
+      "dist_ema20_pct": -9.23,
       "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "Solana",
       "ticker": "SOL-USD",
-      "price": 86.54930877685547,
+      "price": 83.32109069824219,
       "trend": "up",
-      "sep_pct": 1.81,
-      "dist_ema20_pct": -9.98,
+      "sep_pct": 0.86,
+      "dist_ema20_pct": -11.65,
       "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "XRP",
       "ticker": "XRP-USD",
-      "price": 1.0969239473342896,
+      "price": 1.0528370141983032,
       "trend": "down",
-      "sep_pct": -4.24,
-      "dist_ema20_pct": -13.04,
+      "sep_pct": -5.08,
+      "dist_ema20_pct": -14.58,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Litecoin",
       "ticker": "LTC-USD",
-      "price": 51.3004264831543,
+      "price": 50.23801803588867,
       "trend": "up",
-      "sep_pct": 1.21,
-      "dist_ema20_pct": -7.4,
+      "sep_pct": 0.49,
+      "dist_ema20_pct": -7.99,
       "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "plain": "uptrend \u00b7 no setup right now"
     },
     {
       "name": "Cardano",
       "ticker": "ADA-USD",
-      "price": 0.17700199782848358,
+      "price": 0.17440100014209747,
       "trend": "down",
-      "sep_pct": -10.43,
-      "dist_ema20_pct": -10.44,
+      "sep_pct": -10.91,
+      "dist_ema20_pct": -9.86,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Dogecoin",
       "ticker": "DOGE-USD",
-      "price": 0.06990300118923187,
+      "price": 0.06751500070095062,
       "trend": "down",
-      "sep_pct": -11.04,
-      "dist_ema20_pct": -7.78,
+      "sep_pct": -11.46,
+      "dist_ema20_pct": -9.55,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "Avalanche",
       "ticker": "AVAX-USD",
-      "price": 8.633206367492676,
+      "price": 8.516096115112305,
       "trend": "down",
-      "sep_pct": -1.14,
-      "dist_ema20_pct": -1.12,
+      "sep_pct": -1.12,
+      "dist_ema20_pct": -1.91,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     }
   ],
   "today": {
     "new_signals": 0,
-    "closed_today": 2,
+    "closed_today": 0,
     "data_gaps": []
   }
 }
