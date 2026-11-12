@@ -1,7 +1,7 @@
 {
   "book": "Markets",
   "slug": "markets",
-  "generated_at": "2026-11-11T06:30:12+00:00",
+  "generated_at": "2026-11-12T00:00:21+00:00",
   "strategy": {
     "name": "trend_pullback",
     "version": "1.0",
@@ -16,13 +16,13 @@
   "data_collection": true,
   "correlated_book": false,
   "headline": {
-    "n": 19,
-    "total_R": -3.8,
-    "expectancy_R": -0.2,
-    "win_rate": 42.1,
-    "avg_win_R": 0.92,
+    "n": 20,
+    "total_R": -1.9,
+    "expectancy_R": -0.095,
+    "win_rate": 45.0,
+    "avg_win_R": 1.02,
     "avg_loss_R": -1.01,
-    "profit_factor": 0.66,
+    "profit_factor": 0.83,
     "max_drawdown_R": -7.12,
     "max_consecutive_losses": 3,
     "equity_curve_R": [
@@ -44,19 +44,20 @@
       -0.74,
       -1.75,
       -2.75,
-      -3.8
+      -3.8,
+      -1.9
     ]
   },
   "sample_gate": {
-    "n": 19,
+    "n": 20,
     "target": 30,
     "met": false,
-    "pct": 63
+    "pct": 67
   },
   "counts": {
     "open": 1,
-    "pending": 1,
-    "closed": 19
+    "pending": 2,
+    "closed": 20
   },
   "equity": [
     {
@@ -172,6 +173,12 @@
       "market": "Gold",
       "R": -1.044,
       "cum_R": -3.796
+    },
+    {
+      "exit_at": "2026-11-11",
+      "market": "EUR/USD",
+      "R": 1.891,
+      "cum_R": -1.905
     }
   ],
   "closed_R": [
@@ -250,30 +257,50 @@
     {
       "exit_at": "2026-11-09",
       "R": -1.044
+    },
+    {
+      "exit_at": "2026-11-11",
+      "R": 1.891
     }
   ],
   "open": [
     {
-      "market": "EUR/USD",
+      "market": "Gold",
       "direction": "short",
-      "entry": 1.1225,
-      "stop": 1.1271,
-      "target": 1.1132,
-      "entry_date": "2026-11-10",
-      "price": 1.122246265411377,
+      "entry": 3994.0,
+      "stop": 4157.7002,
+      "target": 3666.5996,
+      "entry_date": "2026-11-11",
+      "price": 3984.0,
       "unreal_R": 0.06,
-      "expected_return_pct": 0.83,
-      "return_pct": 0.02
+      "expected_return_pct": 8.2,
+      "return_pct": 0.25
     }
   ],
   "pending": [
     {
-      "market": "Gold",
+      "market": "EUR/USD",
       "direction": "short",
-      "signal_date": "2026-11-10"
+      "signal_date": "2026-11-11"
+    },
+    {
+      "market": "S&P 500",
+      "direction": "long",
+      "signal_date": "2026-11-11"
     }
   ],
   "closed": [
+    {
+      "market": "EUR/USD",
+      "direction": "short",
+      "outcome_R": 1.89,
+      "status": "WON",
+      "reason": "hit its target",
+      "exit_at": "2026-11-11",
+      "actual_return_pct": 0.83,
+      "expected_return_pct": 0.83,
+      "vs_expected_pct": 0.0
+    },
     {
       "market": "Gold",
       "direction": "short",
@@ -488,12 +515,12 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "price": 7520.93017578125,
+      "price": 7619.3798828125,
       "trend": "up",
       "sep_pct": 3.88,
-      "dist_ema20_pct": -1.11,
-      "status": "no_setup",
-      "plain": "Strong uptrend \u00b7 no setup right now"
+      "dist_ema20_pct": 0.17,
+      "status": "in_trade",
+      "plain": "Uptrend \u00b7 trade open, riding it"
     },
     {
       "name": "DAX 40",
@@ -518,67 +545,67 @@
     {
       "name": "Gold",
       "ticker": "GC=F",
-      "price": 4030.199951171875,
+      "price": 3984.0,
       "trend": "down",
-      "sep_pct": -2.68,
-      "dist_ema20_pct": -1.24,
+      "sep_pct": -2.81,
+      "dist_ema20_pct": -2.18,
       "status": "in_trade",
       "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "Silver",
       "ticker": "SI=F",
-      "price": 51.10100173950195,
+      "price": 51.224998474121094,
       "trend": "down",
-      "sep_pct": -8.07,
-      "dist_ema20_pct": -5.32,
+      "sep_pct": -8.34,
+      "dist_ema20_pct": -4.58,
       "status": "no_setup",
       "plain": "Strong downtrend \u00b7 no setup right now"
     },
     {
       "name": "EUR/USD",
       "ticker": "EURUSD=X",
-      "price": 1.122246265411377,
+      "price": 1.1168941259384155,
       "trend": "down",
-      "sep_pct": -1.54,
-      "dist_ema20_pct": 0.07,
+      "sep_pct": -1.57,
+      "dist_ema20_pct": -0.37,
       "status": "in_trade",
       "plain": "Downtrend \u00b7 trade open, riding it"
     },
     {
       "name": "GBP/USD",
       "ticker": "GBPUSD=X",
-      "price": 1.3441762924194336,
+      "price": 1.3348639011383057,
       "trend": "down",
-      "sep_pct": -0.23,
-      "dist_ema20_pct": 0.49,
+      "sep_pct": -0.25,
+      "dist_ema20_pct": -0.19,
       "status": "watch",
       "plain": "Downtrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "USD/JPY",
       "ticker": "JPY=X",
-      "price": 157.98300170898438,
+      "price": 158.7050018310547,
       "trend": "up",
-      "sep_pct": 0.21,
-      "dist_ema20_pct": 0.06,
+      "sep_pct": 0.24,
+      "dist_ema20_pct": 0.47,
       "status": "watch",
       "plain": "Uptrend \u00b7 pulling back toward its average \u2014 one to watch"
     },
     {
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
-      "price": 0.6921229958534241,
+      "price": 0.6869641542434692,
       "trend": "up",
-      "sep_pct": 0.45,
-      "dist_ema20_pct": -0.89,
+      "sep_pct": 0.37,
+      "dist_ema20_pct": -1.49,
       "status": "no_setup",
       "plain": "uptrend \u00b7 no setup right now"
     }
   ],
   "today": {
-    "new_signals": 1,
-    "closed_today": 0,
+    "new_signals": 2,
+    "closed_today": 1,
     "data_gaps": []
   }
 }

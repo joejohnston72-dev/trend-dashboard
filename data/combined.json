@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11T06:30:12+00:00",
+  "generated_at": "2026-11-12T00:00:21+00:00",
   "headline": {
-    "n": 35,
-    "total_R": -16.99,
-    "win_rate": 25.7,
-    "avg_win_R": 1.04,
+    "n": 36,
+    "total_R": -15.1,
+    "win_rate": 27.8,
+    "avg_win_R": 1.12,
     "avg_loss_R": -1.01,
-    "expectancy_R": -0.485,
-    "profit_factor": 0.35418013154393035,
+    "expectancy_R": -0.419,
+    "profit_factor": 0.4260730715127552,
     "max_drawdown_R": -20.31
   },
   "equity": [
@@ -185,6 +185,11 @@
       "exit_at": "2026-11-09",
       "R": -1.044,
       "cum_R": -16.987
+    },
+    {
+      "exit_at": "2026-11-11",
+      "R": 1.891,
+      "cum_R": -15.096
     }
   ],
   "books": [
@@ -232,15 +237,15 @@
     {
       "book": "Markets",
       "slug": "markets",
-      "generated_at": "2026-11-11T06:30:12+00:00",
+      "generated_at": "2026-11-12T00:00:21+00:00",
       "headline": {
-        "n": 19,
-        "total_R": -3.8,
-        "expectancy_R": -0.2,
-        "win_rate": 42.1,
-        "avg_win_R": 0.92,
+        "n": 20,
+        "total_R": -1.9,
+        "expectancy_R": -0.095,
+        "win_rate": 45.0,
+        "avg_win_R": 1.02,
         "avg_loss_R": -1.01,
-        "profit_factor": 0.66,
+        "profit_factor": 0.83,
         "max_drawdown_R": -7.12,
         "max_consecutive_losses": 3,
         "equity_curve_R": [
@@ -262,13 +267,14 @@
           -0.74,
           -1.75,
           -2.75,
-          -3.8
+          -3.8,
+          -1.9
         ]
       },
       "counts": {
         "open": 1,
-        "pending": 1,
-        "closed": 19
+        "pending": 2,
+        "closed": 20
       },
       "data_collection": true,
       "correlated_book": false
@@ -276,16 +282,16 @@
   ],
   "open": [
     {
-      "market": "EUR/USD",
+      "market": "Gold",
       "direction": "short",
-      "entry": 1.1225,
-      "stop": 1.1271,
-      "target": 1.1132,
-      "entry_date": "2026-11-10",
-      "price": 1.122246265411377,
+      "entry": 3994.0,
+      "stop": 4157.7002,
+      "target": 3666.5996,
+      "entry_date": "2026-11-11",
+      "price": 3984.0,
       "unreal_R": 0.06,
-      "expected_return_pct": 0.83,
-      "return_pct": 0.02,
+      "expected_return_pct": 8.2,
+      "return_pct": 0.25,
       "book": "Markets"
     }
   ]
