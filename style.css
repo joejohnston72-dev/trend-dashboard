@@ -179,3 +179,42 @@ svg.eq{display:block;width:100%;height:auto;}
 .dt.t{background:var(--green);} .dt.s{background:var(--red);} .dt.x{background:var(--amber);} .steps b{font-family:var(--mono);}
 
 .loading{padding:60px 0;text-align:center;color:var(--dim);}
+
+/* ---- value book + issues (2026-11) ---- */
+.legend{display:flex;gap:14px;font-size:12px;color:var(--muted);margin:2px 0 6px;}
+.legend span{display:flex;align-items:center;gap:6px;}
+.legend i,.tip i{display:inline-block;width:12px;height:3px;border-radius:2px;}
+.chartwrap{position:relative;}
+.eq.vs{overflow:visible;}
+.endlab{font-size:11px;fill:var(--text);font-family:var(--mono);}
+.tip{position:absolute;top:4px;width:140px;background:var(--panel2);border:1px solid var(--border);border-radius:8px;
+  padding:6px 8px;font-size:12px;display:flex;flex-direction:column;gap:2px;pointer-events:none;}
+.tip span{display:flex;align-items:center;gap:6px;color:var(--text);}
+.tbl{margin-top:8px;font-size:12px;color:var(--muted);}
+.tbl summary{cursor:pointer;}
+.tbl table{width:100%;border-collapse:collapse;margin-top:6px;font-family:var(--mono);}
+.tbl td,.tbl th{padding:3px 0;border-bottom:1px solid var(--border);text-align:left;font-weight:500;}
+.tbl .r{text-align:right;}
+.hold{display:flex;align-items:flex-start;gap:10px;padding:11px 14px;border-bottom:1px solid var(--border);}
+.hold:last-child{border-bottom:none;}
+.hold .body{flex:1;min-width:0;}
+.hold .nm{font-weight:600;font-size:14px;display:flex;flex-wrap:wrap;align-items:center;gap:6px;}
+.hold .desc{font-size:12px;color:var(--muted);margin-top:2px;overflow-wrap:anywhere;}
+.hold .r{font-family:var(--mono);font-size:13px;white-space:nowrap;}
+.tk{font-family:var(--mono);font-size:11px;color:var(--dim);font-weight:500;}
+.rk{display:inline-grid;place-items:center;min-width:20px;height:20px;border-radius:6px;background:var(--panel2);
+  border:1px solid var(--border);font-size:11px;font-family:var(--mono);color:var(--muted);}
+.issue{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--amber);border-radius:10px;padding:12px 14px;margin-bottom:10px;}
+.issue.error{border-left-color:var(--red);} .issue.review{border-left-color:var(--blue);}
+.issue .it{display:flex;gap:10px;align-items:flex-start;}
+.issue .k{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);}
+.issue .ttl{font-weight:600;font-size:14px;margin-top:1px;}
+.issue .meta{font-size:12px;color:var(--dim);}
+.cmdlab{font-size:12px;color:var(--muted);margin:10px 0 4px;}
+.cmd{display:flex;gap:8px;align-items:stretch;}
+.cmd code{flex:1;min-width:0;font-family:var(--mono);font-size:11.5px;background:var(--bg);border:1px solid var(--border);
+  border-radius:7px;padding:7px 8px;overflow-x:auto;white-space:nowrap;}
+.copy{border:1px solid var(--border);background:var(--panel2);border-radius:7px;padding:0 12px;font-size:12px;font-weight:600;color:var(--text);}
+.allclear{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);background:var(--panel);
+  border:1px solid var(--border);border-radius:10px;padding:11px 14px;}
+.allclear .ok{color:var(--green);font-weight:700;}
