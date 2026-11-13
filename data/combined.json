@@ -1,324 +1,43 @@
 {
-  "generated_at": "2026-11-13T22:05:03+00:00",
+  "generated_at": "2026-11-13T22:39:20+00:00",
   "headline": {
-    "n": 36,
-    "total_R": -15.1,
-    "win_rate": 27.8,
-    "avg_win_R": 1.12,
-    "avg_loss_R": -1.01,
-    "expectancy_R": -0.419,
-    "profit_factor": 0.4260730715127552,
-    "max_drawdown_R": -20.31
+    "n": 0
   },
-  "equity": [
-    {
-      "exit_at": "2026-07-06",
-      "R": 0.078,
-      "cum_R": 0.078
-    },
-    {
-      "exit_at": "2026-07-06",
-      "R": 0.73,
-      "cum_R": 0.808
-    },
-    {
-      "exit_at": "2026-07-06",
-      "R": 0.522,
-      "cum_R": 1.33
-    },
-    {
-      "exit_at": "2026-07-14",
-      "R": 1.982,
-      "cum_R": 3.312
-    },
-    {
-      "exit_at": "2026-07-23",
-      "R": -1.006,
-      "cum_R": 2.306
-    },
-    {
-      "exit_at": "2026-08-04",
-      "R": -1.004,
-      "cum_R": 1.302
-    },
-    {
-      "exit_at": "2026-08-17",
-      "R": 1.052,
-      "cum_R": 2.354
-    },
-    {
-      "exit_at": "2026-08-24",
-      "R": -1.016,
-      "cum_R": 1.338
-    },
-    {
-      "exit_at": "2026-08-27",
-      "R": 1.986,
-      "cum_R": 3.324
-    },
-    {
-      "exit_at": "2026-09-02",
-      "R": -1.016,
-      "cum_R": 2.308
-    },
-    {
-      "exit_at": "2026-09-03",
-      "R": -1.016,
-      "cum_R": 1.292
-    },
-    {
-      "exit_at": "2026-09-03",
-      "R": -1.007,
-      "cum_R": 0.285
-    },
-    {
-      "exit_at": "2026-09-03",
-      "R": -1.015,
-      "cum_R": -0.73
-    },
-    {
-      "exit_at": "2026-09-09",
-      "R": -1.008,
-      "cum_R": -1.738
-    },
-    {
-      "exit_at": "2026-09-10",
-      "R": -1.003,
-      "cum_R": -2.741
-    },
-    {
-      "exit_at": "2026-09-11",
-      "R": -1.02,
-      "cum_R": -3.761
-    },
-    {
-      "exit_at": "2026-09-11",
-      "R": -1.014,
-      "cum_R": -4.775
-    },
-    {
-      "exit_at": "2026-09-14",
-      "R": -1.011,
-      "cum_R": -5.786
-    },
-    {
-      "exit_at": "2026-09-18",
-      "R": -1.008,
-      "cum_R": -6.794
-    },
-    {
-      "exit_at": "2026-09-18",
-      "R": -1.01,
-      "cum_R": -7.804
-    },
-    {
-      "exit_at": "2026-09-19",
-      "R": -1.006,
-      "cum_R": -8.81
-    },
-    {
-      "exit_at": "2026-09-21",
-      "R": -1.008,
-      "cum_R": -9.818
-    },
-    {
-      "exit_at": "2026-09-21",
-      "R": -1.006,
-      "cum_R": -10.824
-    },
-    {
-      "exit_at": "2026-10-12",
-      "R": 0.616,
-      "cum_R": -10.208
-    },
-    {
-      "exit_at": "2026-10-13",
-      "R": -1.03,
-      "cum_R": -11.238
-    },
-    {
-      "exit_at": "2026-10-13",
-      "R": -1.006,
-      "cum_R": -12.244
-    },
-    {
-      "exit_at": "2026-10-22",
-      "R": -1.015,
-      "cum_R": -13.259
-    },
-    {
-      "exit_at": "2026-10-23",
-      "R": -1.003,
-      "cum_R": -14.262
-    },
-    {
-      "exit_at": "2026-11-02",
-      "R": 0.36,
-      "cum_R": -13.902
-    },
-    {
-      "exit_at": "2026-11-05",
-      "R": 1.99,
-      "cum_R": -11.912
-    },
-    {
-      "exit_at": "2026-11-05",
-      "R": -1.013,
-      "cum_R": -12.925
-    },
-    {
-      "exit_at": "2026-11-05",
-      "R": -1.01,
-      "cum_R": -13.935
-    },
-    {
-      "exit_at": "2026-11-05",
-      "R": -1.003,
-      "cum_R": -14.938
-    },
-    {
-      "exit_at": "2026-11-06",
-      "R": -1.005,
-      "cum_R": -15.943
-    },
-    {
-      "exit_at": "2026-11-09",
-      "R": -1.044,
-      "cum_R": -16.987
-    },
-    {
-      "exit_at": "2026-11-11",
-      "R": 1.891,
-      "cum_R": -15.096
-    }
-  ],
+  "equity": [],
   "books": [
     {
-      "book": "Crypto",
-      "slug": "crypto",
-      "generated_at": "2026-11-13T20:47:40+00:00",
+      "book": "Value",
+      "slug": "value",
+      "kind": "portfolio",
+      "status": "active",
+      "generated_at": "2026-11-13T22:39:20+00:00",
       "headline": {
-        "n": 16,
-        "total_R": -13.19,
-        "expectancy_R": -0.824,
-        "win_rate": 6.2,
-        "avg_win_R": 1.99,
-        "avg_loss_R": -1.01,
-        "profit_factor": 0.13,
-        "max_drawdown_R": -13.19,
-        "max_consecutive_losses": 13,
-        "equity_curve_R": [
-          -1.02,
-          -2.02,
-          -3.04,
-          -4.06,
-          -5.07,
-          -6.08,
-          -7.09,
-          -8.1,
-          -9.11,
-          -10.11,
-          -11.12,
-          -12.15,
-          -13.16,
-          -11.17,
-          -12.18,
-          -13.19
-        ]
+        "return_pct": -0.16,
+        "bench_return_pct": 0.0,
+        "vs_bench_pts": -0.16,
+        "nav_gbp": 9983.8,
+        "cash_gbp": 0.0,
+        "start_capital": 10000.0,
+        "start_date": "2026-11-13",
+        "core_pct": 75.0,
+        "picks_pct": 25.0,
+        "n_picks": 8
       },
       "counts": {
-        "open": 0,
-        "pending": 0,
-        "closed": 16
+        "open": 10
       },
-      "data_collection": true,
-      "correlated_book": true
-    },
-    {
-      "book": "Markets",
-      "slug": "markets",
-      "generated_at": "2026-11-13T22:05:03+00:00",
-      "headline": {
-        "n": 20,
-        "total_R": -1.9,
-        "expectancy_R": -0.095,
-        "win_rate": 45.0,
-        "avg_win_R": 1.02,
-        "avg_loss_R": -1.01,
-        "profit_factor": 0.83,
-        "max_drawdown_R": -7.12,
-        "max_consecutive_losses": 3,
-        "equity_curve_R": [
-          0.08,
-          0.81,
-          1.33,
-          3.31,
-          2.31,
-          1.3,
-          2.35,
-          1.34,
-          3.32,
-          2.31,
-          1.3,
-          0.3,
-          0.91,
-          -0.1,
-          -1.1,
-          -0.74,
-          -1.75,
-          -2.75,
-          -3.8,
-          -1.9
-        ]
-      },
-      "counts": {
-        "open": 3,
-        "pending": 0,
-        "closed": 20
-      },
-      "data_collection": true,
+      "data_collection": false,
       "correlated_book": false
     }
   ],
-  "open": [
-    {
-      "market": "EUR/USD",
-      "direction": "short",
-      "entry": 1.1095,
-      "stop": 1.1251,
-      "target": 1.0783,
-      "entry_date": "2026-11-12",
-      "price": 1.1027790307998657,
-      "unreal_R": 0.43,
-      "expected_return_pct": 2.81,
-      "return_pct": 0.61,
-      "book": "Markets"
-    },
-    {
-      "market": "Gold",
-      "direction": "short",
-      "entry": 3994.0,
-      "stop": 4157.7002,
-      "target": 3666.5996,
-      "entry_date": "2026-11-11",
-      "price": 3883.39990234375,
-      "unreal_R": 0.68,
-      "expected_return_pct": 8.2,
-      "return_pct": 2.77,
-      "book": "Markets"
-    },
-    {
-      "market": "S&P 500",
-      "direction": "long",
-      "entry": 7550.8398,
-      "stop": 7422.2402,
-      "target": 7808.0391,
-      "entry_date": "2026-11-12",
-      "price": 7561.669921875,
-      "unreal_R": 0.08,
-      "expected_return_pct": 3.41,
-      "return_pct": 0.14,
-      "book": "Markets"
-    }
-  ]
+  "issues": [],
+  "schedule": {
+    "next_checkin": "2026-11-15T17:00+00:00",
+    "checkin_days": [
+      "wed",
+      "sun"
+    ],
+    "next_screen": "first check-in on/after 2026-12-01"
+  },
+  "open": []
 }

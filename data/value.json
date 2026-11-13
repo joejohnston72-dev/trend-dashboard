@@ -1,0 +1,200 @@
+{
+  "book": "Value",
+  "slug": "value",
+  "kind": "portfolio",
+  "status": "active",
+  "generated_at": "2026-11-13T22:39:20+00:00",
+  "strategy": {
+    "name": "value",
+    "core_weight": 0.75,
+    "picks_target": 8,
+    "benchmark": "Vanguard FTSE All-World (Acc)"
+  },
+  "headline": {
+    "return_pct": -0.16,
+    "bench_return_pct": 0.0,
+    "vs_bench_pts": -0.16,
+    "nav_gbp": 9983.8,
+    "cash_gbp": 0.0,
+    "start_capital": 10000.0,
+    "start_date": "2026-11-13",
+    "core_pct": 75.0,
+    "picks_pct": 25.0,
+    "n_picks": 8
+  },
+  "counts": {
+    "open": 10
+  },
+  "history": [
+    {
+      "date": "2026-11-13",
+      "port_pct": -0.16,
+      "bench_pct": 0.0
+    }
+  ],
+  "holdings": [
+    {
+      "ticker": "IWFV.L",
+      "name": "iShares Edge MSCI World Value Factor (Acc)",
+      "sleeve": "core",
+      "weight_pct": 45.03,
+      "value_gbp": 4495.5,
+      "return_pct": -0.1,
+      "entry_date": "2026-11-13",
+      "why": "",
+      "rank_at_buy": null
+    },
+    {
+      "ticker": "AVSG.L",
+      "name": "Avantis Global Small Cap Value (Acc)",
+      "sleeve": "core",
+      "weight_pct": 30.02,
+      "value_gbp": 2997.0,
+      "return_pct": -0.1,
+      "entry_date": "2026-11-13",
+      "why": "",
+      "rank_at_buy": null
+    },
+    {
+      "ticker": "CPAY",
+      "name": "Corpay",
+      "sleeve": "pick",
+      "weight_pct": 3.13,
+      "value_gbp": 312.19,
+      "return_pct": -0.1,
+      "entry_date": "2026-11-13",
+      "why": "~15x operating profit \u00b7 cash yield 7% \u00b7 ROE 32% \u00b7 sales +18% \u00b7 debt 2.8x profits",
+      "rank_at_buy": 13
+    },
+    {
+      "ticker": "HAS",
+      "name": "Hasbro",
+      "sleeve": "pick",
+      "weight_pct": 3.13,
+      "value_gbp": 312.19,
+      "return_pct": -0.1,
+      "entry_date": "2026-11-13",
+      "why": "~14x operating profit \u00b7 cash yield 5% \u00b7 ROE 140% \u00b7 sales +15% \u00b7 debt 1.6x profits",
+      "rank_at_buy": 15
+    },
+    {
+      "ticker": "NTAP",
+      "name": "NetApp",
+      "sleeve": "pick",
+      "weight_pct": 3.13,
+      "value_gbp": 312.19,
+      "return_pct": -0.1,
+      "entry_date": "2026-11-13",
+      "why": "~18x operating profit \u00b7 cash yield 3% \u00b7 ROE 115% \u00b7 sales +30% \u00b7 net cash",
+      "rank_at_buy": 26
+    },
+    {
+      "ticker": "OMC",
+      "name": "Omnicom Group",
+      "sleeve": "pick",
+      "weight_pct": 3.13,
+      "value_gbp": 312.19,
+      "return_pct": -0.1,
+      "entry_date": "2026-11-13",
+      "why": "~9x operating profit \u00b7 cash yield 19% \u00b7 ROE 10% \u00b7 sales +59% \u00b7 debt 1.8x profits",
+      "rank_at_buy": 29
+    },
+    {
+      "ticker": "AAF.L",
+      "name": "Airtel Africa",
+      "sleeve": "pick",
+      "weight_pct": 3.11,
+      "value_gbp": 310.64,
+      "return_pct": -0.6,
+      "entry_date": "2026-11-13",
+      "why": "~8x operating profit \u00b7 cash yield 9% \u00b7 ROE 27% \u00b7 sales +25% \u00b7 debt 1.8x profits",
+      "rank_at_buy": 21
+    },
+    {
+      "ticker": "HOC.L",
+      "name": "Hochschild Mining",
+      "sleeve": "pick",
+      "weight_pct": 3.11,
+      "value_gbp": 310.64,
+      "return_pct": -0.6,
+      "entry_date": "2026-11-13",
+      "why": "~5x operating profit \u00b7 cash yield 11% \u00b7 ROE 42% \u00b7 sales +62% \u00b7 net cash",
+      "rank_at_buy": 3
+    },
+    {
+      "ticker": "PAF.L",
+      "name": "Pan African Resources",
+      "sleeve": "pick",
+      "weight_pct": 3.11,
+      "value_gbp": 310.64,
+      "return_pct": -0.6,
+      "entry_date": "2026-11-13",
+      "why": "~5x operating profit \u00b7 cash yield 11% \u00b7 ROE 45% \u00b7 sales +91% \u00b7 net cash",
+      "rank_at_buy": 4
+    },
+    {
+      "ticker": "SAGA.L",
+      "name": "Saga",
+      "sleeve": "pick",
+      "weight_pct": 3.11,
+      "value_gbp": 310.64,
+      "return_pct": -0.6,
+      "entry_date": "2026-11-13",
+      "why": "~9x operating profit \u00b7 cash yield 25% \u00b7 ROE 30% \u00b7 sales +12% \u00b7 net cash",
+      "rank_at_buy": 19
+    }
+  ],
+  "alerts": [],
+  "screen": {},
+  "trades": [
+    {
+      "date": "2026-11-13",
+      "text": "BUY Omnicom Group (OMC)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY NetApp (NTAP)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY Airtel Africa (AAF.L)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY Saga (SAGA.L)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY Hasbro (HAS)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY Corpay (CPAY)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY Pan African Resources (PAF.L)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY Hochschild Mining (HOC.L)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY Avantis Global Small Cap Value (Acc) (AVSG.L) (core)"
+    },
+    {
+      "date": "2026-11-13",
+      "text": "BUY iShares Edge MSCI World Value Factor (Acc) (IWFV.L) (core)"
+    }
+  ],
+  "issues": [],
+  "schedule": {
+    "next_checkin": "2026-11-15T17:00+00:00",
+    "checkin_days": [
+      "wed",
+      "sun"
+    ],
+    "next_screen": "first check-in on/after 2026-12-01"
+  }
+}
