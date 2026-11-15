@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:39:20+00:00",
+  "generated_at": "2026-11-15T19:55:05+00:00",
   "headline": {
     "n": 0
   },
@@ -10,17 +10,17 @@
       "slug": "value",
       "kind": "portfolio",
       "status": "active",
-      "generated_at": "2026-11-13T22:39:20+00:00",
+      "generated_at": "2026-11-15T19:55:05+00:00",
       "headline": {
-        "return_pct": -0.16,
+        "return_pct": -0.17,
         "bench_return_pct": 0.0,
-        "vs_bench_pts": -0.16,
-        "nav_gbp": 9983.8,
+        "vs_bench_pts": -0.17,
+        "nav_gbp": 9982.57,
         "cash_gbp": 0.0,
         "start_capital": 10000.0,
         "start_date": "2026-11-13",
         "core_pct": 75.0,
-        "picks_pct": 25.0,
+        "picks_pct": 24.9,
         "n_picks": 8
       },
       "counts": {
@@ -32,7 +32,7 @@
   ],
   "issues": [],
   "schedule": {
-    "next_checkin": "2026-11-15T17:00+00:00",
+    "next_checkin": "2026-11-18T17:00+00:00",
     "checkin_days": [
       "wed",
       "sun"

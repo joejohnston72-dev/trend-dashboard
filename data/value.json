@@ -3,7 +3,7 @@
   "slug": "value",
   "kind": "portfolio",
   "status": "active",
-  "generated_at": "2026-11-13T22:39:20+00:00",
+  "generated_at": "2026-11-15T19:55:05+00:00",
   "strategy": {
     "name": "value",
     "core_weight": 0.75,
@@ -11,15 +11,15 @@
     "benchmark": "Vanguard FTSE All-World (Acc)"
   },
   "headline": {
-    "return_pct": -0.16,
+    "return_pct": -0.17,
     "bench_return_pct": 0.0,
-    "vs_bench_pts": -0.16,
-    "nav_gbp": 9983.8,
+    "vs_bench_pts": -0.17,
+    "nav_gbp": 9982.57,
     "cash_gbp": 0.0,
     "start_capital": 10000.0,
     "start_date": "2026-11-13",
     "core_pct": 75.0,
-    "picks_pct": 25.0,
+    "picks_pct": 24.9,
     "n_picks": 8
   },
   "counts": {
@@ -29,6 +29,11 @@
     {
       "date": "2026-11-13",
       "port_pct": -0.16,
+      "bench_pct": 0.0
+    },
+    {
+      "date": "2026-11-15",
+      "port_pct": -0.17,
       "bench_pct": 0.0
     }
   ],
@@ -59,9 +64,9 @@
       "ticker": "CPAY",
       "name": "Corpay",
       "sleeve": "pick",
-      "weight_pct": 3.13,
-      "value_gbp": 312.19,
-      "return_pct": -0.1,
+      "weight_pct": 3.12,
+      "value_gbp": 311.88,
+      "return_pct": -0.2,
       "entry_date": "2026-11-13",
       "why": "~15x operating profit \u00b7 cash yield 7% \u00b7 ROE 32% \u00b7 sales +18% \u00b7 debt 2.8x profits",
       "rank_at_buy": 13
@@ -70,9 +75,9 @@
       "ticker": "HAS",
       "name": "Hasbro",
       "sleeve": "pick",
-      "weight_pct": 3.13,
-      "value_gbp": 312.19,
-      "return_pct": -0.1,
+      "weight_pct": 3.12,
+      "value_gbp": 311.88,
+      "return_pct": -0.2,
       "entry_date": "2026-11-13",
       "why": "~14x operating profit \u00b7 cash yield 5% \u00b7 ROE 140% \u00b7 sales +15% \u00b7 debt 1.6x profits",
       "rank_at_buy": 15
@@ -81,9 +86,9 @@
       "ticker": "NTAP",
       "name": "NetApp",
       "sleeve": "pick",
-      "weight_pct": 3.13,
-      "value_gbp": 312.19,
-      "return_pct": -0.1,
+      "weight_pct": 3.12,
+      "value_gbp": 311.88,
+      "return_pct": -0.2,
       "entry_date": "2026-11-13",
       "why": "~18x operating profit \u00b7 cash yield 3% \u00b7 ROE 115% \u00b7 sales +30% \u00b7 net cash",
       "rank_at_buy": 26
@@ -92,9 +97,9 @@
       "ticker": "OMC",
       "name": "Omnicom Group",
       "sleeve": "pick",
-      "weight_pct": 3.13,
-      "value_gbp": 312.19,
-      "return_pct": -0.1,
+      "weight_pct": 3.12,
+      "value_gbp": 311.88,
+      "return_pct": -0.2,
       "entry_date": "2026-11-13",
       "why": "~9x operating profit \u00b7 cash yield 19% \u00b7 ROE 10% \u00b7 sales +59% \u00b7 debt 1.8x profits",
       "rank_at_buy": 29
@@ -190,7 +195,7 @@
   ],
   "issues": [],
   "schedule": {
-    "next_checkin": "2026-11-15T17:00+00:00",
+    "next_checkin": "2026-11-18T17:00+00:00",
     "checkin_days": [
       "wed",
       "sun"
