@@ -3,7 +3,7 @@
   "slug": "value",
   "kind": "portfolio",
   "status": "active",
-  "generated_at": "2026-11-15T19:55:05+00:00",
+  "generated_at": "2026-11-18T18:23:06+00:00",
   "strategy": {
     "name": "value",
     "core_weight": 0.75,
@@ -11,15 +11,15 @@
     "benchmark": "Vanguard FTSE All-World (Acc)"
   },
   "headline": {
-    "return_pct": -0.17,
-    "bench_return_pct": 0.0,
-    "vs_bench_pts": -0.17,
-    "nav_gbp": 9982.57,
+    "return_pct": -3.33,
+    "bench_return_pct": -2.71,
+    "vs_bench_pts": -0.62,
+    "nav_gbp": 9667.03,
     "cash_gbp": 0.0,
     "start_capital": 10000.0,
     "start_date": "2026-11-13",
-    "core_pct": 75.0,
-    "picks_pct": 24.9,
+    "core_pct": 75.2,
+    "picks_pct": 24.7,
     "n_picks": 8
   },
   "counts": {
@@ -35,6 +35,11 @@
       "date": "2026-11-15",
       "port_pct": -0.17,
       "bench_pct": 0.0
+    },
+    {
+      "date": "2026-11-18",
+      "port_pct": -3.33,
+      "bench_pct": -2.71
     }
   ],
   "holdings": [
@@ -42,9 +47,9 @@
       "ticker": "IWFV.L",
       "name": "iShares Edge MSCI World Value Factor (Acc)",
       "sleeve": "core",
-      "weight_pct": 45.03,
-      "value_gbp": 4495.5,
-      "return_pct": -0.1,
+      "weight_pct": 44.89,
+      "value_gbp": 4339.61,
+      "return_pct": -3.56,
       "entry_date": "2026-11-13",
       "why": "",
       "rank_at_buy": null
@@ -53,20 +58,31 @@
       "ticker": "AVSG.L",
       "name": "Avantis Global Small Cap Value (Acc)",
       "sleeve": "core",
-      "weight_pct": 30.02,
-      "value_gbp": 2997.0,
-      "return_pct": -0.1,
+      "weight_pct": 30.36,
+      "value_gbp": 2934.65,
+      "return_pct": -2.18,
       "entry_date": "2026-11-13",
       "why": "",
       "rank_at_buy": null
     },
     {
+      "ticker": "OMC",
+      "name": "Omnicom Group",
+      "sleeve": "pick",
+      "weight_pct": 3.26,
+      "value_gbp": 315.36,
+      "return_pct": 0.91,
+      "entry_date": "2026-11-13",
+      "why": "~9x operating profit \u00b7 cash yield 19% \u00b7 ROE 10% \u00b7 sales +59% \u00b7 debt 1.8x profits",
+      "rank_at_buy": 29
+    },
+    {
       "ticker": "CPAY",
       "name": "Corpay",
       "sleeve": "pick",
-      "weight_pct": 3.12,
-      "value_gbp": 311.88,
-      "return_pct": -0.2,
+      "weight_pct": 3.19,
+      "value_gbp": 308.77,
+      "return_pct": -1.19,
       "entry_date": "2026-11-13",
       "why": "~15x operating profit \u00b7 cash yield 7% \u00b7 ROE 32% \u00b7 sales +18% \u00b7 debt 2.8x profits",
       "rank_at_buy": 13
@@ -75,78 +91,67 @@
       "ticker": "HAS",
       "name": "Hasbro",
       "sleeve": "pick",
-      "weight_pct": 3.12,
-      "value_gbp": 311.88,
-      "return_pct": -0.2,
+      "weight_pct": 3.18,
+      "value_gbp": 307.89,
+      "return_pct": -1.47,
       "entry_date": "2026-11-13",
       "why": "~14x operating profit \u00b7 cash yield 5% \u00b7 ROE 140% \u00b7 sales +15% \u00b7 debt 1.6x profits",
       "rank_at_buy": 15
     },
     {
-      "ticker": "NTAP",
-      "name": "NetApp",
+      "ticker": "SAGA.L",
+      "name": "Saga",
       "sleeve": "pick",
-      "weight_pct": 3.12,
-      "value_gbp": 311.88,
-      "return_pct": -0.2,
+      "weight_pct": 3.14,
+      "value_gbp": 303.72,
+      "return_pct": -2.81,
       "entry_date": "2026-11-13",
-      "why": "~18x operating profit \u00b7 cash yield 3% \u00b7 ROE 115% \u00b7 sales +30% \u00b7 net cash",
-      "rank_at_buy": 26
-    },
-    {
-      "ticker": "OMC",
-      "name": "Omnicom Group",
-      "sleeve": "pick",
-      "weight_pct": 3.12,
-      "value_gbp": 311.88,
-      "return_pct": -0.2,
-      "entry_date": "2026-11-13",
-      "why": "~9x operating profit \u00b7 cash yield 19% \u00b7 ROE 10% \u00b7 sales +59% \u00b7 debt 1.8x profits",
-      "rank_at_buy": 29
+      "why": "~9x operating profit \u00b7 cash yield 25% \u00b7 ROE 30% \u00b7 sales +12% \u00b7 net cash",
+      "rank_at_buy": 19
     },
     {
       "ticker": "AAF.L",
       "name": "Airtel Africa",
       "sleeve": "pick",
-      "weight_pct": 3.11,
-      "value_gbp": 310.64,
-      "return_pct": -0.6,
+      "weight_pct": 3.07,
+      "value_gbp": 296.47,
+      "return_pct": -5.13,
       "entry_date": "2026-11-13",
       "why": "~8x operating profit \u00b7 cash yield 9% \u00b7 ROE 27% \u00b7 sales +25% \u00b7 debt 1.8x profits",
       "rank_at_buy": 21
     },
     {
-      "ticker": "HOC.L",
-      "name": "Hochschild Mining",
+      "ticker": "NTAP",
+      "name": "NetApp",
       "sleeve": "pick",
-      "weight_pct": 3.11,
-      "value_gbp": 310.64,
-      "return_pct": -0.6,
+      "weight_pct": 3.07,
+      "value_gbp": 296.67,
+      "return_pct": -5.07,
       "entry_date": "2026-11-13",
-      "why": "~5x operating profit \u00b7 cash yield 11% \u00b7 ROE 42% \u00b7 sales +62% \u00b7 net cash",
-      "rank_at_buy": 3
+      "why": "~18x operating profit \u00b7 cash yield 3% \u00b7 ROE 115% \u00b7 sales +30% \u00b7 net cash",
+      "rank_at_buy": 26
     },
     {
       "ticker": "PAF.L",
       "name": "Pan African Resources",
       "sleeve": "pick",
-      "weight_pct": 3.11,
-      "value_gbp": 310.64,
-      "return_pct": -0.6,
+      "weight_pct": 2.92,
+      "value_gbp": 282.54,
+      "return_pct": -9.59,
       "entry_date": "2026-11-13",
       "why": "~5x operating profit \u00b7 cash yield 11% \u00b7 ROE 45% \u00b7 sales +91% \u00b7 net cash",
       "rank_at_buy": 4
     },
     {
-      "ticker": "SAGA.L",
-      "name": "Saga",
+      "ticker": "HOC.L",
+      "name": "Hochschild Mining",
       "sleeve": "pick",
-      "weight_pct": 3.11,
-      "value_gbp": 310.64,
-      "return_pct": -0.6,
+      "weight_pct": 2.91,
+      "value_gbp": 281.35,
+      "return_pct": -9.97,
       "entry_date": "2026-11-13",
-      "why": "~9x operating profit \u00b7 cash yield 25% \u00b7 ROE 30% \u00b7 sales +12% \u00b7 net cash",
-      "rank_at_buy": 19
+      "why": "~5x operating profit \u00b7 cash yield 11% \u00b7 ROE 42% \u00b7 sales +62% \u00b7 net cash",
+      "rank_at_buy": 3
     }
   ],
   "alerts": [],
@@ -195,7 +200,7 @@
   ],
   "issues": [],
   "schedule": {
-    "next_checkin": "2026-11-18T17:00+00:00",
+    "next_checkin": "2026-11-22T17:00+00:00",
     "checkin_days": [
       "wed",
       "sun"
